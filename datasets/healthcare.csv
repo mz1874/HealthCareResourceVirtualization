@@ -1,0 +1,328 @@
+Variable,Measure,COU,Country,TIME_PERIOD,Hospital Category
+Not-for-profit privately owned hospitals,Number,ISL,Iceland,2020,Hospital
+For-profit privately owned hospitals,Number,ISL,Iceland,2020,Hospital
+For-profit privately owned hospitals,Number,KOR,Korea,2020,Hospital
+Publicly owned hospitals,Number,NLD,Netherlands,2020,Hospital
+Not-for-profit privately owned hospitals,Number,TUR,Türkiye,2020,Hospital
+Not-for-profit privately owned hospitals,Number,SVN,Slovenia,2020,Hospital
+Not-for-profit privately owned hospitals,Number,LTU,Lithuania,2020,Hospital
+Not-for-profit privately owned hospitals,Number,LVA,Latvia,2020,Hospital
+Not-for-profit privately owned hospitals,Number,CRI,Costa Rica,2020,Hospital
+Not-for-profit privately owned hospitals,Number,BGR,Bulgaria,2020,Hospital
+Not-for-profit privately owned hospitals,Number,ISL,Iceland,2010,Hospital
+For-profit privately owned hospitals,Number,ISL,Iceland,2010,Hospital
+For-profit privately owned hospitals,Number,KOR,Korea,2010,Hospital
+Publicly owned hospitals,Number,NLD,Netherlands,2010,Hospital
+Not-for-profit privately owned hospitals,Number,POL,Poland,2010,Hospital
+Not-for-profit privately owned hospitals,Number,TUR,Türkiye,2010,Hospital
+Not-for-profit privately owned hospitals,Number,SVN,Slovenia,2010,Hospital
+Not-for-profit privately owned hospitals,Number,LTU,Lithuania,2010,Hospital
+Not-for-profit privately owned hospitals,Number,LVA,Latvia,2010,Hospital
+Not-for-profit privately owned hospitals,Number,CRI,Costa Rica,2010,Hospital
+Not-for-profit privately owned hospitals,Number,BGR,Bulgaria,2010,Hospital
+Hospitals,Number,AUS,Australia,2010,Hospital
+Publicly owned hospitals,Number,AUS,Australia,2010,Hospital
+Hospitals,Number,AUT,Austria,2010,Hospital
+General hospitals,Number,AUT,Austria,2010,General Hospital
+Publicly owned hospitals,Number,AUT,Austria,2010,Hospital
+Not-for-profit privately owned hospitals,Number,AUT,Austria,2010,Hospital
+For-profit privately owned hospitals,Number,AUT,Austria,2010,Hospital
+Hospitals,Number,BEL,Belgium,2010,Hospital
+General hospitals,Number,BEL,Belgium,2010,General Hospital
+Publicly owned hospitals,Number,BEL,Belgium,2010,Hospital
+Not-for-profit privately owned hospitals,Number,BEL,Belgium,2010,Hospital
+Hospitals,Number,CAN,Canada,2010,Hospital
+General hospitals,Number,CAN,Canada,2010,General Hospital
+Publicly owned hospitals,Number,CAN,Canada,2010,Hospital
+For-profit privately owned hospitals,Number,CAN,Canada,2010,Hospital
+Hospitals,Number,CZE,Czechia,2010,Hospital
+Publicly owned hospitals,Number,CZE,Czechia,2010,Hospital
+Not-for-profit privately owned hospitals,Number,CZE,Czechia,2010,Hospital
+For-profit privately owned hospitals,Number,CZE,Czechia,2010,Hospital
+Hospitals,Number,FIN,Finland,2010,Hospital
+General hospitals,Number,FIN,Finland,2010,General Hospital
+Publicly owned hospitals,Number,FIN,Finland,2010,Hospital
+For-profit privately owned hospitals,Number,FIN,Finland,2010,Hospital
+Hospitals,Number,FRA,France,2010,Hospital
+General hospitals,Number,FRA,France,2010,General Hospital
+Publicly owned hospitals,Number,FRA,France,2010,Hospital
+Not-for-profit privately owned hospitals,Number,FRA,France,2010,Hospital
+For-profit privately owned hospitals,Number,FRA,France,2010,Hospital
+Hospitals,Number,DEU,Germany,2010,Hospital
+General hospitals,Number,DEU,Germany,2010,General Hospital
+Publicly owned hospitals,Number,DEU,Germany,2010,Hospital
+Not-for-profit privately owned hospitals,Number,DEU,Germany,2010,Hospital
+For-profit privately owned hospitals,Number,DEU,Germany,2010,Hospital
+Hospitals,Number,GRC,Greece,2010,Hospital
+General hospitals,Number,GRC,Greece,2010,General Hospital
+Publicly owned hospitals,Number,GRC,Greece,2010,Hospital
+Not-for-profit privately owned hospitals,Number,GRC,Greece,2010,Hospital
+For-profit privately owned hospitals,Number,GRC,Greece,2010,Hospital
+Hospitals,Number,HUN,Hungary,2010,Hospital
+General hospitals,Number,HUN,Hungary,2010,General Hospital
+For-profit privately owned hospitals,Number,HUN,Hungary,2010,Hospital
+Publicly owned hospitals,Number,HUN,Hungary,2010,Hospital
+Not-for-profit privately owned hospitals,Number,HUN,Hungary,2010,Hospital
+Hospitals,Number,ISL,Iceland,2010,Hospital
+General hospitals,Number,ISL,Iceland,2010,General Hospital
+Publicly owned hospitals,Number,ISL,Iceland,2010,Hospital
+Hospitals,Number,IRL,Ireland,2010,Hospital
+General hospitals,Number,IRL,Ireland,2010,General Hospital
+Publicly owned hospitals,Number,IRL,Ireland,2010,Hospital
+For-profit privately owned hospitals,Number,IRL,Ireland,2010,Hospital
+Hospitals,Number,ITA,Italy,2010,Hospital
+General hospitals,Number,ITA,Italy,2010,General Hospital
+Publicly owned hospitals,Number,ITA,Italy,2010,Hospital
+Not-for-profit privately owned hospitals,Number,ITA,Italy,2010,Hospital
+For-profit privately owned hospitals,Number,ITA,Italy,2010,Hospital
+General hospitals,Number,JPN,Japan,2010,General Hospital
+Hospitals,Number,JPN,Japan,2010,Hospital
+Publicly owned hospitals,Number,JPN,Japan,2010,Hospital
+Hospitals,Number,KOR,Korea,2010,Hospital
+General hospitals,Number,KOR,Korea,2010,General Hospital
+Publicly owned hospitals,Number,KOR,Korea,2010,Hospital
+Not-for-profit privately owned hospitals,Number,KOR,Korea,2010,Hospital
+Hospitals,Number,LUX,Luxembourg,2010,Hospital
+General hospitals,Number,LUX,Luxembourg,2010,General Hospital
+Hospitals,Number,MEX,Mexico,2010,Hospital
+Publicly owned hospitals,Number,MEX,Mexico,2010,Hospital
+Not-for-profit privately owned hospitals,Number,MEX,Mexico,2010,Hospital
+For-profit privately owned hospitals,Number,MEX,Mexico,2010,Hospital
+Hospitals,Number,NLD,Netherlands,2010,Hospital
+General hospitals,Number,NLD,Netherlands,2010,General Hospital
+Not-for-profit privately owned hospitals,Number,NLD,Netherlands,2010,Hospital
+For-profit privately owned hospitals,Number,NLD,Netherlands,2010,Hospital
+Hospitals,Number,NZL,New Zealand,2010,Hospital
+General hospitals,Number,NZL,New Zealand,2010,General Hospital
+Publicly owned hospitals,Number,NZL,New Zealand,2010,Hospital
+Not-for-profit privately owned hospitals,Number,NZL,New Zealand,2010,Hospital
+For-profit privately owned hospitals,Number,NZL,New Zealand,2010,Hospital
+Hospitals,Number,POL,Poland,2010,Hospital
+General hospitals,Number,POL,Poland,2010,General Hospital
+Publicly owned hospitals,Number,POL,Poland,2010,Hospital
+For-profit privately owned hospitals,Number,POL,Poland,2010,Hospital
+Hospitals,Number,PRT,Portugal,2010,Hospital
+General hospitals,Number,PRT,Portugal,2010,General Hospital
+Publicly owned hospitals,Number,PRT,Portugal,2010,Hospital
+Not-for-profit privately owned hospitals,Number,PRT,Portugal,2010,Hospital
+For-profit privately owned hospitals,Number,PRT,Portugal,2010,Hospital
+Hospitals,Number,SVK,Slovak Republic,2010,Hospital
+General hospitals,Number,SVK,Slovak Republic,2010,General Hospital
+Hospitals,Number,TUR,Türkiye,2010,Hospital
+General hospitals,Number,TUR,Türkiye,2010,General Hospital
+Publicly owned hospitals,Number,TUR,Türkiye,2010,Hospital
+For-profit privately owned hospitals,Number,TUR,Türkiye,2010,Hospital
+Hospitals,Number,USA,United States,2010,Hospital
+General hospitals,Number,USA,United States,2010,General Hospital
+Publicly owned hospitals,Number,USA,United States,2010,Hospital
+Not-for-profit privately owned hospitals,Number,USA,United States,2010,Hospital
+For-profit privately owned hospitals,Number,USA,United States,2010,Hospital
+Hospitals,Number,CHL,Chile,2010,Hospital
+General hospitals,Number,CHL,Chile,2010,General Hospital
+Publicly owned hospitals,Number,CHL,Chile,2010,Hospital
+For-profit privately owned hospitals,Number,CHL,Chile,2010,Hospital
+Hospitals,Number,EST,Estonia,2010,Hospital
+General hospitals,Number,EST,Estonia,2010,General Hospital
+Publicly owned hospitals,Number,EST,Estonia,2010,Hospital
+Not-for-profit privately owned hospitals,Number,EST,Estonia,2010,Hospital
+For-profit privately owned hospitals,Number,EST,Estonia,2010,Hospital
+Hospitals,Number,ISR,Israel,2010,Hospital
+General hospitals,Number,ISR,Israel,2010,General Hospital
+Publicly owned hospitals,Number,ISR,Israel,2010,Hospital
+Not-for-profit privately owned hospitals,Number,ISR,Israel,2010,Hospital
+For-profit privately owned hospitals,Number,ISR,Israel,2010,Hospital
+Hospitals,Number,SVN,Slovenia,2010,Hospital
+General hospitals,Number,SVN,Slovenia,2010,General Hospital
+Publicly owned hospitals,Number,SVN,Slovenia,2010,Hospital
+For-profit privately owned hospitals,Number,SVN,Slovenia,2010,Hospital
+Publicly owned hospitals,Number,LTU,Lithuania,2010,Hospital
+Hospitals,Number,LVA,Latvia,2010,Hospital
+For-profit privately owned hospitals,Number,LTU,Lithuania,2010,Hospital
+General hospitals,Number,LTU,Lithuania,2010,General Hospital
+General hospitals,Number,LVA,Latvia,2010,General Hospital
+Hospitals,Number,LTU,Lithuania,2010,Hospital
+Publicly owned hospitals,Number,LVA,Latvia,2010,Hospital
+For-profit privately owned hospitals,Number,LVA,Latvia,2010,Hospital
+Publicly owned hospitals,Number,CRI,Costa Rica,2010,Hospital
+Hospitals,Number,CRI,Costa Rica,2010,Hospital
+Hospitals,Number,COL,Colombia,2010,Hospital
+Not-for-profit privately owned hospitals,Number,COL,Colombia,2010,Hospital
+For-profit privately owned hospitals,Number,CRI,Costa Rica,2010,Hospital
+General hospitals,Number,COL,Colombia,2010,General Hospital
+For-profit privately owned hospitals,Number,COL,Colombia,2010,Hospital
+Publicly owned hospitals,Number,COL,Colombia,2010,Hospital
+For-profit privately owned hospitals,Number,BGR,Bulgaria,2010,Hospital
+Hospitals,Number,ROU,Romania,2010,Hospital
+General hospitals,Number,BGR,Bulgaria,2010,General Hospital
+Not-for-profit privately owned hospitals,Number,ROU,Romania,2010,Hospital
+Hospitals,Number,HRV,Croatia,2010,Hospital
+Hospitals,Number,BGR,Bulgaria,2010,Hospital
+Publicly owned hospitals,Number,ROU,Romania,2010,Hospital
+For-profit privately owned hospitals,Number,ROU,Romania,2010,Hospital
+Publicly owned hospitals,Number,BGR,Bulgaria,2010,Hospital
+General hospitals,Number,ROU,Romania,2010,General Hospital
+General hospitals,Number,HRV,Croatia,2010,General Hospital
+Hospitals,Number,AUS,Australia,2020,Hospital
+Publicly owned hospitals,Number,AUS,Australia,2020,Hospital
+Hospitals,Number,AUT,Austria,2020,Hospital
+General hospitals,Number,AUT,Austria,2020,General Hospital
+Publicly owned hospitals,Number,AUT,Austria,2020,Hospital
+Not-for-profit privately owned hospitals,Number,AUT,Austria,2020,Hospital
+For-profit privately owned hospitals,Number,AUT,Austria,2020,Hospital
+Hospitals,Number,BEL,Belgium,2020,Hospital
+General hospitals,Number,BEL,Belgium,2020,General Hospital
+Publicly owned hospitals,Number,BEL,Belgium,2020,Hospital
+Not-for-profit privately owned hospitals,Number,BEL,Belgium,2020,Hospital
+Hospitals,Number,CAN,Canada,2020,Hospital
+General hospitals,Number,CAN,Canada,2020,General Hospital
+Publicly owned hospitals,Number,CAN,Canada,2020,Hospital
+For-profit privately owned hospitals,Number,CAN,Canada,2020,Hospital
+Hospitals,Number,CZE,Czechia,2020,Hospital
+General hospitals,Number,CZE,Czechia,2020,General Hospital
+Publicly owned hospitals,Number,CZE,Czechia,2020,Hospital
+Not-for-profit privately owned hospitals,Number,CZE,Czechia,2020,Hospital
+For-profit privately owned hospitals,Number,CZE,Czechia,2020,Hospital
+Hospitals,Number,FIN,Finland,2020,Hospital
+General hospitals,Number,FIN,Finland,2020,General Hospital
+Publicly owned hospitals,Number,FIN,Finland,2020,Hospital
+For-profit privately owned hospitals,Number,FIN,Finland,2020,Hospital
+Hospitals,Number,FRA,France,2020,Hospital
+General hospitals,Number,FRA,France,2020,General Hospital
+Publicly owned hospitals,Number,FRA,France,2020,Hospital
+Not-for-profit privately owned hospitals,Number,FRA,France,2020,Hospital
+For-profit privately owned hospitals,Number,FRA,France,2020,Hospital
+Hospitals,Number,DEU,Germany,2020,Hospital
+General hospitals,Number,DEU,Germany,2020,General Hospital
+Publicly owned hospitals,Number,DEU,Germany,2020,Hospital
+Not-for-profit privately owned hospitals,Number,DEU,Germany,2020,Hospital
+For-profit privately owned hospitals,Number,DEU,Germany,2020,Hospital
+General hospitals,Number,GRC,Greece,2020,General Hospital
+Hospitals,Number,GRC,Greece,2020,Hospital
+Publicly owned hospitals,Number,GRC,Greece,2020,Hospital
+Not-for-profit privately owned hospitals,Number,GRC,Greece,2020,Hospital
+For-profit privately owned hospitals,Number,GRC,Greece,2020,Hospital
+Hospitals,Number,HUN,Hungary,2020,Hospital
+Hospitals,Number,ISL,Iceland,2020,Hospital
+General hospitals,Number,ISL,Iceland,2020,General Hospital
+Publicly owned hospitals,Number,ISL,Iceland,2020,Hospital
+Hospitals,Number,IRL,Ireland,2020,Hospital
+General hospitals,Number,IRL,Ireland,2020,General Hospital
+Publicly owned hospitals,Number,IRL,Ireland,2020,Hospital
+For-profit privately owned hospitals,Number,IRL,Ireland,2020,Hospital
+Hospitals,Number,ITA,Italy,2020,Hospital
+General hospitals,Number,ITA,Italy,2020,General Hospital
+Publicly owned hospitals,Number,ITA,Italy,2020,Hospital
+Hospitals,Number,JPN,Japan,2020,Hospital
+General hospitals,Number,JPN,Japan,2020,General Hospital
+Publicly owned hospitals,Number,JPN,Japan,2020,Hospital
+Hospitals,Number,KOR,Korea,2020,Hospital
+General hospitals,Number,KOR,Korea,2020,General Hospital
+Publicly owned hospitals,Number,KOR,Korea,2020,Hospital
+Not-for-profit privately owned hospitals,Number,KOR,Korea,2020,Hospital
+Hospitals,Number,LUX,Luxembourg,2020,Hospital
+General hospitals,Number,LUX,Luxembourg,2020,General Hospital
+Hospitals,Number,MEX,Mexico,2020,Hospital
+Publicly owned hospitals,Number,MEX,Mexico,2020,Hospital
+Not-for-profit privately owned hospitals,Number,MEX,Mexico,2020,Hospital
+For-profit privately owned hospitals,Number,MEX,Mexico,2020,Hospital
+General hospitals,Number,NLD,Netherlands,2020,General Hospital
+Hospitals,Number,NLD,Netherlands,2020,Hospital
+Not-for-profit privately owned hospitals,Number,NLD,Netherlands,2020,Hospital
+For-profit privately owned hospitals,Number,NLD,Netherlands,2020,Hospital
+Hospitals,Number,NZL,New Zealand,2020,Hospital
+General hospitals,Number,NZL,New Zealand,2020,General Hospital
+Publicly owned hospitals,Number,NZL,New Zealand,2020,Hospital
+Not-for-profit privately owned hospitals,Number,NZL,New Zealand,2020,Hospital
+For-profit privately owned hospitals,Number,NZL,New Zealand,2020,Hospital
+General hospitals,Number,POL,Poland,2020,General Hospital
+Hospitals,Number,POL,Poland,2020,Hospital
+Publicly owned hospitals,Number,POL,Poland,2020,Hospital
+Not-for-profit privately owned hospitals,Number,POL,Poland,2020,Hospital
+For-profit privately owned hospitals,Number,POL,Poland,2020,Hospital
+Hospitals,Number,PRT,Portugal,2020,Hospital
+General hospitals,Number,PRT,Portugal,2020,General Hospital
+Publicly owned hospitals,Number,PRT,Portugal,2020,Hospital
+Not-for-profit privately owned hospitals,Number,PRT,Portugal,2020,Hospital
+For-profit privately owned hospitals,Number,PRT,Portugal,2020,Hospital
+Hospitals,Number,SVK,Slovak Republic,2020,Hospital
+General hospitals,Number,SVK,Slovak Republic,2020,General Hospital
+Hospitals,Number,ESP,Spain,2020,Hospital
+General hospitals,Number,ESP,Spain,2020,General Hospital
+Publicly owned hospitals,Number,ESP,Spain,2020,Hospital
+Not-for-profit privately owned hospitals,Number,ESP,Spain,2020,Hospital
+For-profit privately owned hospitals,Number,ESP,Spain,2020,Hospital
+Hospitals,Number,CHE,Switzerland,2020,Hospital
+General hospitals,Number,CHE,Switzerland,2020,General Hospital
+Hospitals,Number,TUR,Türkiye,2020,Hospital
+General hospitals,Number,TUR,Türkiye,2020,General Hospital
+Publicly owned hospitals,Number,TUR,Türkiye,2020,Hospital
+For-profit privately owned hospitals,Number,TUR,Türkiye,2020,Hospital
+Hospitals,Number,USA,United States,2020,Hospital
+General hospitals,Number,USA,United States,2020,General Hospital
+Publicly owned hospitals,Number,USA,United States,2020,Hospital
+Not-for-profit privately owned hospitals,Number,USA,United States,2020,Hospital
+For-profit privately owned hospitals,Number,USA,United States,2020,Hospital
+General hospitals,Number,CHL,Chile,2020,General Hospital
+Hospitals,Number,CHL,Chile,2020,Hospital
+Publicly owned hospitals,Number,CHL,Chile,2020,Hospital
+For-profit privately owned hospitals,Number,CHL,Chile,2020,Hospital
+Hospitals,Number,EST,Estonia,2020,Hospital
+General hospitals,Number,EST,Estonia,2020,General Hospital
+Not-for-profit privately owned hospitals,Number,EST,Estonia,2020,Hospital
+For-profit privately owned hospitals,Number,EST,Estonia,2020,Hospital
+Publicly owned hospitals,Number,EST,Estonia,2020,Hospital
+Hospitals,Number,ISR,Israel,2020,Hospital
+General hospitals,Number,ISR,Israel,2020,General Hospital
+Publicly owned hospitals,Number,ISR,Israel,2020,Hospital
+Not-for-profit privately owned hospitals,Number,ISR,Israel,2020,Hospital
+For-profit privately owned hospitals,Number,ISR,Israel,2020,Hospital
+Hospitals,Number,SVN,Slovenia,2020,Hospital
+General hospitals,Number,SVN,Slovenia,2020,General Hospital
+Publicly owned hospitals,Number,SVN,Slovenia,2020,Hospital
+For-profit privately owned hospitals,Number,SVN,Slovenia,2020,Hospital
+Hospitals,Number,LVA,Latvia,2020,Hospital
+For-profit privately owned hospitals,Number,LTU,Lithuania,2020,Hospital
+General hospitals,Number,LVA,Latvia,2020,General Hospital
+Publicly owned hospitals,Number,LVA,Latvia,2020,Hospital
+For-profit privately owned hospitals,Number,LVA,Latvia,2020,Hospital
+Publicly owned hospitals,Number,CRI,Costa Rica,2020,Hospital
+Hospitals,Number,CRI,Costa Rica,2020,Hospital
+Hospitals,Number,COL,Colombia,2020,Hospital
+Not-for-profit privately owned hospitals,Number,COL,Colombia,2020,Hospital
+For-profit privately owned hospitals,Number,CRI,Costa Rica,2020,Hospital
+General hospitals,Number,COL,Colombia,2020,General Hospital
+Publicly owned hospitals,Number,COL,Colombia,2020,Hospital
+For-profit privately owned hospitals,Number,COL,Colombia,2020,Hospital
+For-profit privately owned hospitals,Number,BGR,Bulgaria,2020,Hospital
+Hospitals,Number,ROU,Romania,2020,Hospital
+General hospitals,Number,BGR,Bulgaria,2020,General Hospital
+Not-for-profit privately owned hospitals,Number,ROU,Romania,2020,Hospital
+Hospitals,Number,HRV,Croatia,2020,Hospital
+Hospitals,Number,BGR,Bulgaria,2020,Hospital
+Publicly owned hospitals,Number,ROU,Romania,2020,Hospital
+Not-for-profit privately owned hospitals,Number,HRV,Croatia,2020,Hospital
+Publicly owned hospitals,Number,HRV,Croatia,2020,Hospital
+For-profit privately owned hospitals,Number,ROU,Romania,2020,Hospital
+Publicly owned hospitals,Number,BGR,Bulgaria,2020,Hospital
+General hospitals,Number,ROU,Romania,2020,General Hospital
+General hospitals,Number,HRV,Croatia,2020,General Hospital
+For-profit privately owned hospitals,Number,HRV,Croatia,2020,Hospital
+Hospitals,Number,GBR,United Kingdom,2020,Hospital
+General hospitals,Number,GBR,United Kingdom,2020,General Hospital
+Publicly owned hospitals,Number,GBR,United Kingdom,2020,Hospital
+Not-for-profit privately owned hospitals,Number,AUS,Australia,2010,Hospital
+For-profit privately owned hospitals,Number,AUS,Australia,2010,Hospital
+General hospitals,Number,CZE,Czechia,2010,General Hospital
+For-profit privately owned hospitals,Number,ITA,Italy,2020,Hospital
+Publicly owned hospitals,Number,LTU,Lithuania,2020,Hospital
+General hospitals,Number,LTU,Lithuania,2020,General Hospital
+Hospitals,Number,LTU,Lithuania,2020,Hospital
+General hospitals,Number,AUS,Australia,2010,General Hospital
+Hospitals,Number,ESP,Spain,2010,Hospital
+General hospitals,Number,ESP,Spain,2010,General Hospital
+Publicly owned hospitals,Number,ESP,Spain,2010,Hospital
+Not-for-profit privately owned hospitals,Number,ESP,Spain,2010,Hospital
+For-profit privately owned hospitals,Number,ESP,Spain,2010,Hospital
+Hospitals,Number,CHE,Switzerland,2010,Hospital
+General hospitals,Number,CHE,Switzerland,2010,General Hospital
+Not-for-profit privately owned hospitals,Number,ITA,Italy,2020,Hospital

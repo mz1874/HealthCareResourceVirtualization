@@ -1,0 +1,62 @@
+    /* 设置画布的背景颜色为白色 */
+body {
+    background-color: white;  /* 画布背景颜色 */
+    position: relative; /* 使子元素可以使用绝对定位 */
+}
+
+/* SVG 的样式 */
+svg {
+    display: block;  /* 防止 SVG 之间的空白 */
+    margin: auto;  /* 居中 */
+}
+
+/* 地图路径的默认样式（陆地） */
+.land {
+    fill: #d9c03f;  /* 陆地颜色 */
+    stroke: #333;
+    stroke-width: 0.5px;
+}
+
+/* 海洋颜色设置 */
+.ocean {
+    fill: lightblue;  /* 海洋颜色 */
+}
+
+/* 高亮选择的国家 */
+.selected {
+    fill: #d72f19;
+}
+
+/* 提示框样式 */
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 5px;
+    background: lightsteelblue;
+    border: 1px solid #333;
+    border-radius: 3px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* 按钮样式 */
+.zoom-buttons {
+    position: absolute;
+    top: 10px;
+    left: 240px;
+    z-index: 1;  /* 确保按钮在最上面 */
+}
+
+.zoom-buttons button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.zoom-buttons button:hover {
+    background-color: #0056b3;
+}

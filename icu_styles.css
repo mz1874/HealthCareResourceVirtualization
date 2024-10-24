@@ -1,0 +1,95 @@
+/* General body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    margin: 20px;
+}
+
+/* Container for the controls (dropdowns) */
+.controls {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Styling for labels */
+.controls label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling for the dropdowns */
+.controls select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+}
+
+/* Hover effect for dropdowns */
+.controls select:hover {
+    border-color: #777;
+}
+
+/* Styling for the tooltip */
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    padding: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 5px;
+    pointer-events: none;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* Chart container styles */
+svg {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+/* Styling the bars */
+.bar {
+    fill: #4281f4;
+    transition: fill 0.2s, transform 0.2s;
+}
+
+/* Hover effect on bars */
+.bar:hover {
+    fill: #FF7043;
+    transform: scale(1);
+}
+
+/* Styling the axis labels */
+.axis-label {
+    font-size: 16px;
+    font-weight: bold;
+    fill: #333;
+}
+
+/* Axis line styling */
+.axis line {
+    stroke: #ddd;
+}
+
+.axis path {
+    stroke: #333;
+}
+
+.axis text {
+    font-size: 12px;
+    fill: #333;
+}

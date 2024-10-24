@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICU Occupancy Bar Chart</title>
+    <link rel="stylesheet" href="icu_styles.css">
+</head>
+<body>
+    <h1>ICU Bed Occupancy Rate Over The Years</h1>
+    <div class="controls">
+        <!-- Dropdown menu for selecting countries -->
+        <label for="countryDropdown">Select Country:</label>
+        <select id="countryDropdown"></select>
+
+        <!-- Dropdown menu for sorting -->
+        <label for="sortDropdown">Sort By:</label>
+        <select id="sortDropdown">
+            <option value="original">Original</option>
+            <option value="ascending">Ascending</option>
+            <option value="descending">Descending</option>
+        </select>
+    </div>
+    
+    <!-- SVG for the bar chart -->
+    <svg width="800" height="400"></svg>
+
+    <!-- Load D3.js -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <!-- Load external JavaScript -->
+    <script src="icu_chart.js"></script>
+</body>
+</html>

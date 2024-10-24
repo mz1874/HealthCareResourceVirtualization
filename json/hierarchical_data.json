@@ -1,0 +1,75 @@
+{
+    "name": "Total Hospitals",
+    "children": [
+        {
+            "name": "General Hospitals",
+            "children": [
+                {
+                    "name": "2010",
+                    "value": 35
+                },
+                {
+                    "name": "2020",
+                    "value": 34
+                }
+            ]
+        },
+        {
+            "name": "Hospital",
+            "children": [
+                {
+                    "name": "Not-for-profit privately owned hospitals",
+                    "children": [
+                        {
+                            "name": "2010",
+                            "value": 28
+                        },
+                        {
+                            "name": "2020",
+                            "value": 27
+                        }
+                    ]
+                },
+                {
+                    "name": "For-profit privately owned hospitals",
+                    "children": [
+                        {
+                            "name": "2010",
+                            "value": 31
+                        },
+                        {
+                            "name": "2020",
+                            "value": 30
+                        }
+                    ]
+                },
+                {
+                    "name": "Publicly owned hospitals",
+                    "children": [
+                        {
+                            "name": "2010",
+                            "value": 33
+                        },
+                        {
+                            "name": "2020",
+                            "value": 34
+                        }
+                    ]
+                },
+                {
+                    "name": "Hospitals",
+                    "children": [
+                        {
+                            "name": "2010",
+                            "value": 37
+                        },
+                        {
+                            "name": "2020",
+                            "value": 38
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

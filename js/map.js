@@ -1,6 +1,6 @@
 const width = 960;
 const height = 600;
-let rotation = [260, -35];  // 默认旋转角度，使其居中在中国
+let rotation = [260, -35];
 
 // 创建球面投影
 const projection = d3.geoOrthographic()

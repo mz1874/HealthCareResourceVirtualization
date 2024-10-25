@@ -48,7 +48,7 @@ svg.append("text")
     .text("ICU Occupancy (%)");
 
 // Load the CSV file
-d3.csv("ICUBarChart.csv").then(function(data) {
+d3.csv("../cleaned/ICUBarChart.csv").then(function(data) {
     // Get unique countries for the dropdown
     const countries = Array.from(new Set(data.map(d => d['Reference area'])));
 

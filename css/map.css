@@ -7,7 +7,7 @@ body {
 /* SVG 的样式 */
 svg {
     display: block;  /* 防止 SVG 之间的空白 */
-    margin: auto;  /* 居中 */
+    /*margin: auto;  !* 居中 *!*/
 }
 
 /* 地图路径的默认样式（陆地） */
@@ -44,7 +44,7 @@ svg {
 .zoom-buttons {
     position: absolute;
     top: 10px;
-    left: 240px;
+    left: 10px;
     z-index: 1;  /* 确保按钮在最上面 */
 }
 

@@ -6,12 +6,154 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
     }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+      gap: 20px; /* Adds space between chart and info-box */
+    }
+
+    #chart-container {
+      flex: 3;
+    }
+
+    #chart {
+      padding: 20px;
+      min-height:200px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-box {
+      flex: 1;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-box h2,
+    .info-box h3 {
+      color: #333;
+      margin-top: 20px;
+    }
+
+    .info-box h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .info-box h3 {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .info-box p,
+    .info-box li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .info-box ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .info-box ul ul {
+      padding-left: 15px;
+    }
+
+    .overview {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .overview h2,
+    .overview h3 {
+      color: #333;
+      margin-top: 10px;
+    }
+
+    .overview h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .overview p,
+    .overview li {
+      font-size: 14px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    .overview ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .overview ul ul {
+      padding-left: 15px;
+    }
+
   </style>
 </head>
 <body>
-  <div id="chart"></div>
+  <div class="container">
+    <div id="chart-container">
+      <div id="chart">
+        <!-- Chart content would go here -->
+      </div>
+
+      <div class="overview">
+        <h2>Hospital Distribution Overview (2010-2020)</h2>
+        <p>The hierarchical bar chart shows the distribution of hospitals by ownership and category from 2010 to 2020. The data includes general, public, and private hospitals (for-profit and not-for-profit).</p>
+
+        <h3>Hospital Ownership Models:</h3>
+        <ul>
+          <li><strong>Public Hospitals:</strong> Government-funded and focused on essential services, often in underserved areas.</li>
+          <li><strong>Private Hospitals:</strong> Divided into:
+            <ul>
+              <li><strong>For-Profit:</strong> Revenue-focused, offering specialized services.</li>
+              <li><strong>Not-for-Profit:</strong> Run by charitable entities, reinvesting surplus into services.</li>
+            </ul>
+          </li>
+        </ul>
+      
+        <h3>General Hospitals:</h3>
+        <p>Serve diverse healthcare needs and can be publicly or privately owned.</p>
+      
+        <h3>Healthcare Policies (2010-2020):</h3>
+        <p>Government initiatives and private healthcare regulations during this period likely influenced hospital distribution and types, such as funding for public hospitals or incentives for private ones.</p>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h2>Contextual Information</h2>
+      <p>The hierarchical bar chart is designed to help users understand the distribution and changes in the number of hospitals by type and ownership between the years 2010 and 2020. It visualizes the hierarchical structure of hospitals, breaking down the total number of hospitals into various categories based on ownership type and whether they are public or private.</p>
+    </div>
+  </div>
+  
   <script src="js/chart.js"></script>
 </body>
 </html>

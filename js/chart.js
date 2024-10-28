@@ -3,6 +3,21 @@ function truncateText(text, maxLength) {
   return text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
 }
 
+// Helper function to build a breadcrumb-like path
+function buildPath(node) {
+  let path = [];
+  let currentNode = node;
+  
+  // Traverse up to the root, gathering each node's name
+  while (currentNode) {
+    path.unshift(currentNode.data.name);
+    currentNode = currentNode.parent;
+  }
+  
+  // Join the path with arrows or any separator of your choice
+  return path.join(" -> ");
+}
+
 // Set dimensions and margins for the chart
 const width = 800, height = 200;
 const margin = { top: 30, right: 30, bottom: 0, left: 200 };
@@ -85,8 +100,8 @@ d3.json("json/hierarchical_data.json").then(data => {
     // Store current node
     svg.property("currentNode", d);
 
-    // Update subtitle
-    subtitleElement.text(d.data.name === "root" ? "" : d.data.name);
+    // Update subtitle with the current path
+    subtitleElement.text(buildPath(d));
 
     // Update x-scale
     x.domain([0, d.value]);

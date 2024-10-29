@@ -1,10 +1,11 @@
 const width = 960;
 const height = 600;
 let rotation = [260, -35];
+let currentScale = 300;
 
 // 创建球面投影
 const projection = d3.geoOrthographic()
-    .scale(300)  // 控制地球的大小
+    .scale(currentScale)  // 控制地球的大小
     .translate([width / 2, height / 2])  // 将球体置于画布中央
     .clipAngle(90);  // 裁剪不可见的背面部分
 
@@ -48,12 +49,21 @@ const drag = d3.drag()
         rotation[1] -= dy * 0.5;  // 垂直旋转
 
         projection.rotate(rotation);  // 更新投影的旋转
-
-        // 重新绘制地图和海洋
-        update();
+        update();  // 重新绘制地图和海洋
     });
 
 svg.call(drag);  // 将拖动行为应用到 SVG
+
+// 定义缩放行为
+const zoom = d3.zoom()
+    .scaleExtent([100, 800])  // 设置缩放比例范围
+    .on("zoom", function(event) {
+        const newScale = event.transform.k;
+        projection.scale(newScale);  // 更新投影比例
+        update();  // 重新绘制地图和海洋
+    });
+
+svg.call(zoom);  // 将缩放行为应用到 SVG
 
 // 点击国家的回调函数
 function clicked(event, d) {
@@ -88,16 +98,6 @@ function mouseOut() {
     tooltip.style("opacity", 0);  // 隐藏提示框
 }
 
-// 添加按钮事件
-d3.select("#zoom-in").on("click", function() {
-    projection.scale(projection.scale() * 1.2);  // 放大球体
-    update();  // 重新绘制地图和海洋
-});
-
-d3.select("#zoom-out").on("click", function() {
-    projection.scale(projection.scale() * 0.8);  // 缩小球体
-    update();  // 重新绘制地图和海洋
-});
 
 // 更新地图和海洋的函数
 function update() {

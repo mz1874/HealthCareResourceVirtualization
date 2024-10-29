@@ -10,9 +10,16 @@ svg {
     /*margin: auto;  !* 居中 *!*/
 }
 
+    /* 添加选中状态的样式 */
+.selected {
+        fill: orange; /* 选中状态的颜色 */
+        stroke: black; /* 边框颜色 */
+        stroke-width: 1.5px; /* 边框宽度 */
+}
+
+
 /* 地图路径的默认样式（陆地） */
 .land {
-    fill: #d9c03f;  /* 陆地颜色 */
     stroke: #333;
     stroke-width: 0.5px;
 }

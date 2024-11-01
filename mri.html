@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Healthcare Hierarchical Distribution Treemap</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- Chart Container -->
+    <div id="chart-container">
+      <div id="chart"></div>
+    </div>
+
+    <!-- Information Box -->
+    <div class="info-box">
+      <h2>Healthcare Hierarchical Distribution Treemap</h2>
+      <p>This interactive treemap visualizes the hierarchical structure of healthcare services and their relative values. Each rectangle represents a category or sub-category within the healthcare system, such as departments, organizations, or types of services. The size of each rectangle corresponds to its value, which could indicate budget allocation, number of facilities, patient volume, or other relevant metrics.</p>
+
+      <h3>How to Read the Treemap</h3>
+      <ul>
+        <li><strong>Size of the Rectangles:</strong> The larger the rectangle, the higher the value or importance of that category within the hierarchy.</li>
+        <li><strong>Color Coding:</strong> The rectangles are color-coded to help distinguish between parent categories and their children.</li>
+        <li><strong>Tooltip Information:</strong> Hover over a rectangle to view detailed information, including the category name, its value, and its percentage contribution to the overall structure.</li>
+      </ul>
+
+      <h3>Interactivity</h3>
+      <ul>
+        <li><strong>Zoom In:</strong> Click on a rectangle to zoom in and explore its sub-categories. This allows you to drill down into specific details within each section.</li>
+        <li><strong>Zoom Out:</strong> Click outside the rectangle or on the top-most rectangle to zoom out and return to the previous level.</li>
+        <li><strong>Breadcrumb Navigation:</strong> The path displayed at the top helps you keep track of where you are within the hierarchy.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Overview Section -->
+  <div class="overview">
+    <h2>Insights</h2>
+    <p>This visualization helps you understand the distribution and relationships within healthcare categories. For example, you can quickly identify the most resource-intensive areas or compare different categories by their relative sizes.</p>
+  </div>
+
+  <script src="js/mri.js"></script>
+</body>
+</html>

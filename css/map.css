@@ -1,43 +1,57 @@
-    /* 设置画布的背景颜色为白色 */
+/* 设置画布的背景颜色为白色 */
 body {
-    background-color: white;  /* 画布背景颜色 */
+    background-color: white; /* 画布背景颜色 */
     position: relative; /* 使子元素可以使用绝对定位 */
 }
 
 /* SVG 的样式 */
 svg {
-    display: block;  /* 防止 SVG 之间的空白 */
+    display: block; /* 防止 SVG 之间的空白 */
     /*margin: auto;  !* 居中 *!*/
 }
 
+/* 添加选中状态的样式 */
+.selected {
+    fill: orange; /* 选中状态的颜色 */
+    stroke: black; /* 边框颜色 */
+    stroke-width: 1.5px; /* 边框宽度 */
+}
+
+
 /* 地图路径的默认样式（陆地） */
 .land {
-    fill: #d9c03f;  /* 陆地颜色 */
     stroke: #333;
     stroke-width: 0.5px;
 }
 
+ul {
+    text-align: right; /* 使文本右对齐 */
+    list-style-type: none; /* 去掉默认的列表样式 */
+    padding: 0; /* 去掉内边距 */
+    margin: 0; /* 去掉外边距 */
+}
+
 /* 海洋颜色设置 */
 .ocean {
-    fill: lightblue;  /* 海洋颜色 */
+    fill: lightblue; /* 海洋颜色 */
 }
 
 /* 高亮选择的国家 */
 .selected {
-    fill: #d72f19;
+    fill: #ffffff;
 }
 
-/* 提示框样式 */
-.tooltip {
+#tooltip {
     position: absolute;
-    text-align: center;
-    padding: 5px;
-    background: lightsteelblue;
-    border: 1px solid #333;
-    border-radius: 3px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Prevent mouse events on the tooltip */
+    background: white; /* Background color */
+    border: 1px solid #ccc; /* Optional border */
+    border-radius: 4px; /* Optional rounded corners */
+    padding: 10px; /* Optional padding */
+    font-size: 12px; /* Set the font size to a smaller size */
+    color: black; /* Set text color */
+    z-index: 10; /* Ensure tooltip is above other elements */
 }
 
 /* 按钮样式 */
@@ -45,7 +59,7 @@ svg {
     position: absolute;
     top: 10px;
     left: 10px;
-    z-index: 1;  /* 确保按钮在最上面 */
+    z-index: 1; /* 确保按钮在最上面 */
 }
 
 .zoom-buttons button {

@@ -1,0 +1,4581 @@
+{
+  "name": "Healthcare Resources",
+  "children": [
+    {
+      "name": "Ambulance Sector",
+      "children": [
+        {
+          "name": "Austria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Belgium",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Bulgaria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Chile",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Croatia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Czechia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Estonia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Finland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Greece",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Iceland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Israel",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Korea",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Latvia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Lithuania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Luxembourg",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Mexico",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Poland",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Romania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovak Republic",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovenia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Sweden",
+          "children": [
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hospital",
+      "children": [
+        {
+          "name": "Austria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Belgium",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Bulgaria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Chile",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Costa Rica",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Croatia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Czechia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Estonia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Finland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Greece",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Iceland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Israel",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Korea",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Latvia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Lithuania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Luxembourg",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Mexico",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Poland",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Portugal",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Romania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovak Republic",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovenia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Sweden",
+          "children": [
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Switzerland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "United Kingdom",
+          "children": [
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Total",
+      "children": [
+        {
+          "name": " T\u00fcrkiye",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Australia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Austria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Belgium",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Brazil",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Bulgaria",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Chile",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Colombia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Croatia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Czechia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Estonia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Finland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "France",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Germany",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Greece",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Hungary",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Iceland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Ireland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Israel",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Italy",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Japan",
+          "children": [
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Korea",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Latvia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Lithuania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Luxembourg",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Mexico",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Netherlands",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "New Zealand",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Norway",
+          "children": [
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Poland",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Romania",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Russia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovak Republic",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Slovenia",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Spain",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "Sweden",
+          "children": [
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "United Kingdom",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2011",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "children": [
+            {
+              "name": "2010",
+              "value": 1
+            },
+            {
+              "name": "2012",
+              "value": 1
+            },
+            {
+              "name": "2013",
+              "value": 1
+            },
+            {
+              "name": "2014",
+              "value": 1
+            },
+            {
+              "name": "2015",
+              "value": 1
+            },
+            {
+              "name": "2016",
+              "value": 1
+            },
+            {
+              "name": "2017",
+              "value": 1
+            },
+            {
+              "name": "2018",
+              "value": 1
+            },
+            {
+              "name": "2019",
+              "value": 1
+            },
+            {
+              "name": "2020",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

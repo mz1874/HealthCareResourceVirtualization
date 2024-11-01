@@ -37,7 +37,7 @@ const xAxis = chart.append("g")
 const yAxis = chart.append("g").attr("class", "axis");
 
 // Load the CSV file and process the data
-d3.csv("ICU_BED_USE_2k15.csv").then(function(data) {
+d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
     // Parse numerical values
     data.forEach(d => {
         d.Year = +d.Year; // Convert Year to a number

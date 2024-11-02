@@ -28,6 +28,25 @@ svg {
     transition: visibility 0.2s; /* Smooth transition */
 }
 
+#legend {
+    display: flex;
+    flex-direction: column; /* Arrange legend items vertically */
+    margin-left: 20px; /* Space between line chart and legend */
+}
+
+.legend-item {
+    display: flex;
+    align-items: center; /* Center legend items vertically */
+    margin-bottom: 5px; /* Space between legend items */
+}
+
+.legend-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px; /* Space between color box and text */
+    cursor: pointer; /* Pointer cursor for interactivity */
+}
 
 /* 地图路径的默认样式（陆地） */
 .land {

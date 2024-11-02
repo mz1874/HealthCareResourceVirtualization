@@ -156,7 +156,7 @@ function clicked(event, d) {
     // Check if valid data exists
     if (countryData) {
         // Filter non-zero OBS_VALUE and limit to the first 5 entries
-        const nonZeroData = countryData.filter(item => item.value > 0).slice(0, 10);
+        const nonZeroData = countryData.filter(item => item.value > 0).slice(0, 20);
 
         // Display tooltip only if there is data
         if (nonZeroData.length > 0) {

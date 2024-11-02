@@ -17,6 +17,17 @@ svg {
     stroke-width: 1.5px; /* 边框宽度 */
 }
 
+#tooltip2 {
+    position: absolute;
+    visibility: hidden; /* Hidden by default */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    color: white; /* Text color */
+    padding: 8px; /* Padding around the text */
+    border-radius: 5px; /* Rounded corners */
+    pointer-events: none; /* Prevents the tooltip from interfering with mouse events */
+    transition: visibility 0.2s; /* Smooth transition */
+}
+
 
 /* 地图路径的默认样式（陆地） */
 .land {

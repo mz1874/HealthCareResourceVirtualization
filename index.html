@@ -9,24 +9,31 @@
 </head>
 <body>
 
-<div  style="text-align: right;">
+<div style="text-align: right;">
     <ul>
-        <li>
-            <a href="icu_continent.html">icu_occupancy</a>
-        </li>
-        <li>
-            <a href="hospital_comparison.html">hospital_comparison</a>
-        </li>
+        <li><a href="icu_continent.html">ICU Occupancy</a></li>
+        <li><a href="hospital_comparison.html">Hospital Comparison</a></li>
     </ul>
 </div>
 
-
-<svg width="960" height="800"></svg>
+<!-- Globe Display -->
+<svg id="globe" width="960" height="800"></svg>
 <div class="tooltip" id="tooltip"></div>
 
+<hr>
 
+<!-- Container for line chart -->
+<svg id="line-chart" width="960" height="400"></svg>
+<!-- Dropdown for country selection -->
+<div style="margin: 20px;">
+    <label for="country-select">Select a Country:</label>
+    <select id="country-select"></select>
+</div>
 
-</body>
+<div class="tooltip" id="tooltip2" style="position: absolute; visibility: hidden;"></div>
+<div id="legend" style="margin-top: 20px;"></div> <!-- 图例的位置 -->
 
 <script src="js/map.js"></script>
+<script src="js/line_chart.js"></script>
+</body>
 </html>

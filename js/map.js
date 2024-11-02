@@ -153,12 +153,12 @@ function clicked(event, d) {
     g.selectAll("path.land").classed("selected", false);
     d3.select(event.currentTarget).classed("selected", true);
 
-    // 检查是否存在有效数据
+    // Check if valid data exists
     if (countryData) {
-        // 过滤出非零的 OBS_VALUE
-        const nonZeroData = countryData.filter(item => item.value > 0);
+        // Filter non-zero OBS_VALUE and limit to the first 5 entries
+        const nonZeroData = countryData.filter(item => item.value > 0).slice(0, 10);
 
-        // 只有在存在非零数据时才显示提示框
+        // Display tooltip only if there is data
         if (nonZeroData.length > 0) {
             const details = nonZeroData.map(item => `${item.variable}: ${item.value}`).join("<br>");
             tooltip.style("opacity", 1)
@@ -166,7 +166,7 @@ function clicked(event, d) {
                 .style("left", (event.pageX + 10) + "px")
                 .style("top", (event.pageY - 80) + "px");
         } else {
-            // 无效数据时，不显示提示框
+            // Hide tooltip if there's no valid data
             tooltip.style("opacity", 0);
         }
     } else {
@@ -176,6 +176,7 @@ function clicked(event, d) {
             .style("top", (event.pageY - 40) + "px");
     }
 }
+
 
 // 提示框悬停函数
 function mouseOver(event, d) {

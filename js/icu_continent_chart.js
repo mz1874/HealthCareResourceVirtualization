@@ -23,7 +23,7 @@ const tooltip = d3.select("body").append("div")
 // Define the color scale based on the gradient provided and set Paediatric ICU to red
 const colorScale = d3.scaleOrdinal()
     .domain(["Paediatric ICU", "Total ICU Beds", "Adult ICU", "Critical Care Adult ICU", "Neonatal ICU"])
-    .range(["#FF0000", "#FF8C00", "#FF00FF", "#8B008B", "#00008B"]);
+    .range(["#FFBC42", "#D81159", "#8F2D56", "#218380", "#73D2DE"]);
 
 // Scales for x (continents) and y (ICU beds)
 const xScale = d3.scaleBand().range([0, chartWidth]).padding(0.3);

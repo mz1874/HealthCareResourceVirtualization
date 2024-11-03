@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Rotating Globe with D3.js</title>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/d3.v7.js"></script>
     <link rel="stylesheet" href="css/map.css">
 </head>
 <body>
 
-<div  style="text-align: right;">
+<div style="text-align: right;">
     <ul>
-        <li>
-            <a href="icu_continent.html">icu_occupancy</a>
-        </li>
-        <li>
-            <a href="hospital_comparison.html">hospital_comparison</a>
-        </li>
+        <li><a href="icu_continent.html">ICU Occupancy</a></li>
+        <li><a href="hospital_comparison.html">Hospital Comparison</a></li>
     </ul>
 </div>
 
-
-<svg width="960" height="800"></svg>
+<!-- Globe Display -->
+<svg id="globe" width="960" height="800"></svg>
 <div class="tooltip" id="tooltip"></div>
 
+<hr>
+
+<!-- Container for line chart and legend -->
+<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
+    <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
+        <label for="country-select">Select a Country:</label>
+        <select id="country-select"></select>
+    </div>
+    <svg id="line-chart" width="960" height="400" style="margin-top: 40px"></svg>
+    <div id="legend" style="margin-left: 20px;"></div> <!-- 图例的位置 -->
+</div>
 
 
-</body>
+<div class="tooltip" id="tooltip2" style="position: absolute; visibility: hidden;"></div>
+
 
 <script src="js/map.js"></script>
+<script src="js/line_chart.js"></script>
+</body>
 </html>

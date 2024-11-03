@@ -1,6 +1,6 @@
 // Set up SVG dimensions with increased width and right margin for the legend
 const svgWidth = 900, svgHeight = 500;
-const margin = { top: 40, right: 150, bottom: 80, left: 60 }; // Increased bottom margin for timeslider
+const margin = { top: 40, right: 150, bottom: 80, left: 60 };
 const chartWidth = svgWidth - margin.left - margin.right;
 const chartHeight = svgHeight - margin.top - margin.bottom;
 
@@ -20,10 +20,10 @@ const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-// Define the color scale based on the gradient provided
-const colorScale = d3.scaleLinear()
-    .domain([0, 0.25, 0.5, 0.75, 1]) // Define stops in the gradient
-    .range(["#FFD700", "#FF8C00", "#FF00FF", "#8B008B", "#00008B"]); // Yellow, Orange, Magenta, Deep Purple, Dark Blue
+// Define the color scale based on the gradient provided and set Paediatric ICU to red
+const colorScale = d3.scaleOrdinal()
+    .domain(["Paediatric ICU", "Total ICU Beds", "Adult ICU", "Critical Care Adult ICU", "Neonatal ICU"])
+    .range(["#FF0000", "#FF8C00", "#FF00FF", "#8B008B", "#00008B"]);
 
 // Scales for x (continents) and y (ICU beds)
 const xScale = d3.scaleBand().range([0, chartWidth]).padding(0.3);
@@ -45,14 +45,14 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
     });
 
     // Extract unique ICU types, continents, and years
-    const icuTypes = Array.from(new Set(data.map(d => d.ICU_Type))); // Unique ICU types
-    const continents = Array.from(new Set(data.map(d => d.Continent))); // Unique continents
-    const years = Array.from(new Set(data.map(d => d.Year))).sort((a, b) => a - b); // Unique years sorted
+    const icuTypes = Array.from(new Set(data.map(d => d.ICU_Type)));
+    const continents = Array.from(new Set(data.map(d => d.Continent)));
+    const years = Array.from(new Set(data.map(d => d.Year))).sort((a, b) => a - b);
 
     // Define colors for each ICU type using the custom gradient
     const icuTypeColors = d3.scaleOrdinal()
         .domain(icuTypes)
-        .range(icuTypes.map((_, i) => colorScale(i / (icuTypes.length - 1)))); // Assign each ICU type a unique color
+        .range(icuTypes.map(type => colorScale(type)));
 
     // Set up x-axis based on continents
     xScale.domain(continents);
@@ -98,7 +98,7 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
             const continentData = yearData.filter(d => d.Continent === continent);
             const row = { Continent: continent };
             icuTypes.forEach(type => {
-                row[type] = continentData.find(d => d.ICU_Type === type)?.OBS_VALUE || 0; // Assign OBS_VALUE or 0 if missing
+                row[type] = continentData.find(d => d.ICU_Type === type)?.OBS_VALUE || 0;
             });
             return row;
         });
@@ -147,6 +147,21 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
                     .attr("height", d => yScale(d[0]) - yScale(d[1]))
             );
 
+        // Add annotations for continents with missing data
+        chart.selectAll(".no-data-label").remove(); // Remove existing labels
+        stackedData.forEach(d => {
+            if (d3.sum(icuTypes, type => +d[type]) === 0) {
+                chart.append("text")
+                    .attr("class", "no-data-label")
+                    .attr("x", xScale(d.Continent) + xScale.bandwidth() / 2)
+                    .attr("y", chartHeight - 10)
+                    .attr("text-anchor", "middle")
+                    .style("fill", "#888")
+                    .style("font-size", "12px")
+                    .text("No Data Available");
+            }
+        });
+
         // Update axes
         xAxis.transition().duration(800).call(d3.axisBottom(xScale));
         yAxis.transition().duration(800).call(d3.axisLeft(yScale));
@@ -157,8 +172,8 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
 
     // Timeslider for year selection
     const timeslider = d3.select("body").append("div")
-    .attr("class", "timeslider-container"); // Apply the styling class
-    
+        .attr("class", "timeslider-container"); // Apply the styling class
+
     timeslider.append("span").text("Year:");
     timeslider.append("span").attr("id", "year-display").text(years[0]);
 
@@ -170,6 +185,6 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
         .attr("value", d3.min(years))
         .style("width", `${chartWidth}px`)
         .on("input", function() {
-            updateChart(+this.value); // Update chart with selected year
+            updateChart(+this.value);
         });
 });

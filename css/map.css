@@ -55,7 +55,6 @@ svg {
 }
 
 ul {
-    text-align: right; /* 使文本右对齐 */
     list-style-type: none; /* 去掉默认的列表样式 */
     padding: 0; /* 去掉内边距 */
     margin: 0; /* 去掉外边距 */
@@ -84,23 +83,63 @@ ul {
     z-index: 10; /* Ensure tooltip is above other elements */
 }
 
-/* 按钮样式 */
-.zoom-buttons {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    z-index: 1; /* 确保按钮在最上面 */
-}
-
-.zoom-buttons button {
-    margin: 5px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
 
 .zoom-buttons button:hover {
     background-color: #0056b3;
 }
+
+/* Additional styling for the slider */
+.slider-container {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+#year-slider {
+    width: 20%;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    background: #ddd;
+    outline: none;
+    transition: background 0.3s;
+}
+
+#year-slider:hover {
+    background: #ccc;
+}
+
+#year-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#year-slider::-moz-range-thumb {
+    width: 30px;
+    height: 30px;
+    background: #4CAF50;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.year-label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    position: absolute;
+    top: 90px; /* 调整文本的垂直位置 */
+    left: 50%; /* 水平居中 */
+    transform: translateX(-50%); /* 使文本水平居中 */
+    text-align: center; /* 确保文本居中 */
+}
+

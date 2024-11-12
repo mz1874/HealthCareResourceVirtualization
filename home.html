@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Health Care Resource Virtualization Group 6</title>
+    <link href="layui/css/layui.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <script src="js/d3.v7.js"></script>
+    <link rel="stylesheet" href="css/map.css">
+    <style>
+
+    </style>
+</head>
+<body>
+
+<div class="layui-container">
+    <!-- Header Section -->
+    <div class="layui-row layui-text-center">
+        <div class="layui-col-md12">
+            <h1>Comparing Development of Health Care Resources Over the Decade</h1>
+            <p>
+                Welcome to the Health Care Resource Virtualization Data Display Platform. Here, we showcase the trends and changes in health care resources over the past decade across various dimensions.
+            </p>
+        </div>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="layui-row content-section">
+        <div class="layui-col-md12">
+            <h2>Introduction to Health Resources</h2>
+            <p>
+                Health resources are key indicators of the quality and accessibility of medical services within society. The following points outline major aspects of health resource development.
+            </p>
+            <ul>
+                <li><strong>Medical Facilities:</strong> Covers the number and distribution of medical facilities.</li>
+                <li><strong>Medical Staff:</strong> The growth in the number of healthcare professionals.</li>
+                <li><strong>Health Service Coverage:</strong> Emphasizes the importance of expanding health service coverage.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Tab Section with Chart Area in Content -->
+    <div class="layui-row content-section">
+        <div class="layui-col-md12">
+            <div class="layui-tab layui-tab-card">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">Overall physician in counties</li>
+                    <li>Physician changing trends</li>
+                    <li>Staff</li>
+                    <li>Coverage</li>
+                    <li>Trends</li>
+                </ul>
+                <div class="layui-tab-content">
+
+                    <div class="layui-tab-item layui-show">
+                        <div class="tooltip" id="tooltip"></div>
+                        <!-- Globe Display -->
+                        <!-- Year Slider -->
+                        <input type="range" id="year-slider" min="2000" max="2020" step="1" value="2000" style="float: right; margin-right: 50px">
+                        <!-- Year Label -->
+                        <div id="year-label" style="float: right; padding-right: 50px">Year: 2000</div>
+                        <svg id="globe" width="960" height="800"></svg>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div class="layui-tab-item layui-show">
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
+                                <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
+                                    <label for="country-select">Select a Country:</label>
+                                    <select id="country-select"></select>
+                                </div>
+                                <svg id="line-chart" width="960" height="400" style="margin-top: 40px"></svg>
+                                <div id="legend" style="margin-left: 20px;"></div> <!-- 图例的位置 -->
+                                <div class="tooltip" id="tooltip2" style="position: absolute; visibility: hidden;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">Content for Staff</div>
+                    <div class="layui-tab-item">Content for Coverage</div>
+                    <div class="layui-tab-item">Content for Trends</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<div class="footer">
+    <p>&copy; 2024 Health Care Resource Virtualization . All rights reserved.</p>
+    <p>&copy;Group 6: Wang Chong &nbsp; Huey Shin&nbsp; Jerusha</p>
+</div>
+
+<!-- Import Layui JavaScript -->
+<script src="layui/layui.js"></script>
+<script src="js/map.js"></script>
+<script src="js/line_chart.js"></script>
+
+<script>
+
+</script>
+
+</body>
+</html>

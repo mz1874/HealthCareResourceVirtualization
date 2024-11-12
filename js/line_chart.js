@@ -11,7 +11,7 @@
 
     // 定义 SVG 尺寸
     const width = 960;
-    const height = 800;
+    const height = 600;
     const margin = { top: 20, right: 20, bottom: 30, left: 50 };
 
     // 创建比例尺

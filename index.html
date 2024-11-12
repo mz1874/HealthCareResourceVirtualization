@@ -14,23 +14,20 @@
         <li><a href="icu_continent.html">ICU Bed Usage across Continents </a></li>
         <li><a href="hospital_comparison.html">Hospital Comparison</a></li>
         <li><a href="med_tech_avail.html">Medical Technology Availability  </a></li>
-<<<<<<< HEAD
         <li><a href="mri.html">MRI Compatrison </a></li>
-
-=======
-        <li><a href="mri.html">Hierarchical Distribution Treemap</a></li>
->>>>>>> 85f6398617713cf9078776322a414dba6e462186
-
     </ul>
 </div>
 
 <!-- Globe Display -->
+<!-- Year Slider -->
+<input type="range" id="year-slider" min="2000" max="2020" step="1" value="2000" style="position: absolute; top: 10px; left: 10px;">
+<!-- Year Label -->
+<div id="year-label" style="position: absolute; top: 10px; left: 400px;">Year: 2000</div>
+
 <svg id="globe" width="960" height="800"></svg>
 <div class="tooltip" id="tooltip"></div>
-
 <hr>
 
-<!-- Container for line chart and legend -->
 <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
     <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
         <label for="country-select">Select a Country:</label>

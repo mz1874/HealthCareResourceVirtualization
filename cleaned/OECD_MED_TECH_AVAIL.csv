@@ -110,12 +110,12 @@ Positron Emission Tomography (PET) scanners,Number,Switzerland,2014,29,1.46,Low
 Computed Tomography scanners,Number,Switzerland,2014,296,2.47,Medium
 Mammographs,Number,Switzerland,2014,232,2.37,Medium
 Radiation therapy equipment,Number,Switzerland,2014,135,2.13,Medium
-Computed Tomography scanners,Number,Türkiye,2014,1071,3.03,High
-Magnetic Resonance Imaging units,Number,Türkiye,2014,757,2.88,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2014,101,2,Medium
-Gamma cameras,Number,Türkiye,2014,260,2.41,Medium
-Mammographs,Number,Türkiye,2014,903,2.96,Medium
-Radiation therapy equipment,Number,Türkiye,2014,196,2.29,Medium
+Computed Tomography scanners,Number,Turkish,2014,1071,3.03,High
+Magnetic Resonance Imaging units,Number,Turkish,2014,757,2.88,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2014,101,2,Medium
+Gamma cameras,Number,Turkish,2014,260,2.41,Medium
+Mammographs,Number,Turkish,2014,903,2.96,Medium
+Radiation therapy equipment,Number,Turkish,2014,196,2.29,Medium
 Computed Tomography scanners,Number,United States,2014,13065,4.12,Very High
 Magnetic Resonance Imaging units,Number,United States,2014,12135,4.08,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2014,1635,3.21,High
@@ -257,12 +257,12 @@ Computed Tomography scanners,Per million population,Switzerland,2014,36.15,1.56,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2014,3.54,0.55,Very Low
 Mammographs,Per million population,Switzerland,2014,28.33,1.45,Low
 Radiation therapy equipment,Per million population,Switzerland,2014,16.49,1.22,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2014,1.31,0.12,Very Low
-Computed Tomography scanners,Per million population,Türkiye,2014,13.88,1.14,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2014,9.81,0.99,Very Low
-Gamma cameras,Per million population,Türkiye,2014,3.37,0.53,Very Low
-Mammographs,Per million population,Türkiye,2014,11.7,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2014,2.54,0.4,Very Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2014,1.31,0.12,Very Low
+Computed Tomography scanners,Per million population,Turkish,2014,13.88,1.14,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2014,9.81,0.99,Very Low
+Gamma cameras,Per million population,Turkish,2014,3.37,0.53,Very Low
+Mammographs,Per million population,Turkish,2014,11.7,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2014,2.54,0.4,Very Low
 Computed Tomography scanners,Per million population,United States,2014,41.04,1.61,Low
 Magnetic Resonance Imaging units,Per million population,United States,2014,38.11,1.58,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2014,5.14,0.71,Very Low
@@ -470,12 +470,12 @@ Positron Emission Tomography (PET) scanners,Number,Switzerland,2010,25,1.4,Low
 Mammographs,Number,Switzerland,2010,259,2.41,Medium
 Computed Tomography scanners,Number,Switzerland,2010,255,2.41,Medium
 Radiation therapy equipment,Number,Switzerland,2010,129,2.11,Medium
-Computed Tomography scanners,Number,Türkiye,2010,904,2.96,Medium
-Magnetic Resonance Imaging units,Number,Türkiye,2010,678,2.83,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2010,40,1.6,Low
-Gamma cameras,Number,Türkiye,2010,171,2.23,Medium
-Mammographs,Number,Türkiye,2010,638,2.8,Medium
-Radiation therapy equipment,Number,Türkiye,2010,131,2.12,Medium
+Computed Tomography scanners,Number,Turkish,2010,904,2.96,Medium
+Magnetic Resonance Imaging units,Number,Turkish,2010,678,2.83,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2010,40,1.6,Low
+Gamma cameras,Number,Turkish,2010,171,2.23,Medium
+Mammographs,Number,Turkish,2010,638,2.8,Medium
+Radiation therapy equipment,Number,Turkish,2010,131,2.12,Medium
 Magnetic Resonance Imaging units,Number,United States,2010,9750,3.99,High
 Mammographs,Number,United States,2010,12445,4.09,Very High
 Radiation therapy equipment,Number,United States,2010,3495,3.54,High
@@ -614,12 +614,12 @@ Computed Tomography scanners,Per million population,Switzerland,2010,32.59,1.51,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2010,3.19,0.5,Very Low
 Mammographs,Per million population,Switzerland,2010,33.1,1.52,Low
 Radiation therapy equipment,Per million population,Switzerland,2010,16.49,1.22,Low
-Computed Tomography scanners,Per million population,Türkiye,2010,12.36,1.09,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2010,9.27,0.97,Very Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2010,0.55,-0.26,Very Low
-Gamma cameras,Per million population,Türkiye,2010,2.34,0.37,Very Low
-Mammographs,Per million population,Türkiye,2010,8.72,0.94,Very Low
-Radiation therapy equipment,Per million population,Türkiye,2010,1.79,0.25,Very Low
+Computed Tomography scanners,Per million population,Turkish,2010,12.36,1.09,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2010,9.27,0.97,Very Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2010,0.55,-0.26,Very Low
+Gamma cameras,Per million population,Turkish,2010,2.34,0.37,Very Low
+Mammographs,Per million population,Turkish,2010,8.72,0.94,Very Low
+Radiation therapy equipment,Per million population,Turkish,2010,1.79,0.25,Very Low
 Magnetic Resonance Imaging units,Per million population,United States,2010,31.52,1.5,Low
 Mammographs,Per million population,United States,2010,40.23,1.6,Low
 Radiation therapy equipment,Per million population,United States,2010,11.3,1.05,Low
@@ -816,12 +816,12 @@ Mammographs,Number,Switzerland,2015,234,2.37,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2015,28,1.45,Low
 Computed Tomography scanners,Number,Switzerland,2015,312,2.49,Medium
 Radiation therapy equipment,Number,Switzerland,2015,139,2.14,Medium
-Computed Tomography scanners,Number,Türkiye,2015,1119,3.05,High
-Magnetic Resonance Imaging units,Number,Türkiye,2015,794,2.9,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2015,104,2.02,Medium
-Gamma cameras,Number,Türkiye,2015,260,2.41,Medium
-Mammographs,Number,Türkiye,2015,896,2.95,Medium
-Radiation therapy equipment,Number,Türkiye,2015,202,2.31,Medium
+Computed Tomography scanners,Number,Turkish,2015,1119,3.05,High
+Magnetic Resonance Imaging units,Number,Turkish,2015,794,2.9,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2015,104,2.02,Medium
+Gamma cameras,Number,Turkish,2015,260,2.41,Medium
+Mammographs,Number,Turkish,2015,896,2.95,Medium
+Radiation therapy equipment,Number,Turkish,2015,202,2.31,Medium
 Computed Tomography scanners,Number,United States,2015,13150,4.12,Very High
 Magnetic Resonance Imaging units,Number,United States,2015,12515,4.1,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2015,1645,3.22,High
@@ -966,12 +966,12 @@ Computed Tomography scanners,Per million population,Switzerland,2015,37.67,1.58,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2015,3.38,0.53,Very Low
 Mammographs,Per million population,Switzerland,2015,28.25,1.45,Low
 Radiation therapy equipment,Per million population,Switzerland,2015,16.78,1.22,Low
-Computed Tomography scanners,Per million population,Türkiye,2015,14.31,1.16,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2015,10.15,1.01,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2015,1.33,0.12,Very Low
-Gamma cameras,Per million population,Türkiye,2015,3.32,0.52,Very Low
-Mammographs,Per million population,Türkiye,2015,11.46,1.06,Low
-Radiation therapy equipment,Per million population,Türkiye,2015,2.58,0.41,Very Low
+Computed Tomography scanners,Per million population,Turkish,2015,14.31,1.16,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2015,10.15,1.01,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2015,1.33,0.12,Very Low
+Gamma cameras,Per million population,Turkish,2015,3.32,0.52,Very Low
+Mammographs,Per million population,Turkish,2015,11.46,1.06,Low
+Radiation therapy equipment,Per million population,Turkish,2015,2.58,0.41,Very Low
 Computed Tomography scanners,Per million population,United States,2015,41,1.61,Low
 Magnetic Resonance Imaging units,Per million population,United States,2015,39.02,1.59,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2015,5.13,0.71,Very Low
@@ -1174,12 +1174,12 @@ Computed Tomography scanners,Number,Switzerland,2012,277,2.44,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2012,26,1.41,Low
 Mammographs,Number,Switzerland,2012,263,2.42,Medium
 Radiation therapy equipment,Number,Switzerland,2012,132,2.12,Medium
-Computed Tomography scanners,Number,Türkiye,2012,1017,3.01,High
-Magnetic Resonance Imaging units,Number,Türkiye,2012,720,2.86,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2012,71,1.85,Low
-Gamma cameras,Number,Türkiye,2012,210,2.32,Medium
-Mammographs,Number,Türkiye,2012,936,2.97,Medium
-Radiation therapy equipment,Number,Türkiye,2012,180,2.26,Medium
+Computed Tomography scanners,Number,Turkish,2012,1017,3.01,High
+Magnetic Resonance Imaging units,Number,Turkish,2012,720,2.86,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2012,71,1.85,Low
+Gamma cameras,Number,Turkish,2012,210,2.32,Medium
+Mammographs,Number,Turkish,2012,936,2.97,Medium
+Radiation therapy equipment,Number,Turkish,2012,180,2.26,Medium
 Computed Tomography scanners,Number,United States,2012,13775,4.14,Very High
 Magnetic Resonance Imaging units,Number,United States,2012,10815,4.03,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2012,1570,3.2,High
@@ -1326,12 +1326,12 @@ Computed Tomography scanners,Per million population,Switzerland,2012,34.64,1.54,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2012,3.25,0.51,Very Low
 Mammographs,Per million population,Switzerland,2012,32.89,1.52,Low
 Radiation therapy equipment,Per million population,Switzerland,2012,16.51,1.22,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2012,0.94,-0.03,Very Low
-Computed Tomography scanners,Per million population,Türkiye,2012,13.53,1.13,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2012,9.58,0.98,Very Low
-Gamma cameras,Per million population,Türkiye,2012,2.79,0.45,Very Low
-Mammographs,Per million population,Türkiye,2012,12.45,1.1,Low
-Radiation therapy equipment,Per million population,Türkiye,2012,2.39,0.38,Very Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2012,0.94,-0.03,Very Low
+Computed Tomography scanners,Per million population,Turkish,2012,13.53,1.13,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2012,9.58,0.98,Very Low
+Gamma cameras,Per million population,Turkish,2012,2.79,0.45,Very Low
+Mammographs,Per million population,Turkish,2012,12.45,1.1,Low
+Radiation therapy equipment,Per million population,Turkish,2012,2.39,0.38,Very Low
 Computed Tomography scanners,Per million population,United States,2012,43.89,1.64,Low
 Magnetic Resonance Imaging units,Per million population,United States,2012,34.46,1.54,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2012,5,0.7,Very Low
@@ -1542,12 +1542,12 @@ Computed Tomography scanners,Number,Switzerland,2013,296,2.47,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2013,28,1.45,Low
 Mammographs,Number,Switzerland,2013,268,2.43,Medium
 Radiation therapy equipment,Number,Switzerland,2013,134,2.13,Medium
-Computed Tomography scanners,Number,Türkiye,2013,1058,3.02,High
-Magnetic Resonance Imaging units,Number,Türkiye,2013,751,2.88,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2013,85,1.93,Low
-Gamma cameras,Number,Türkiye,2013,234,2.37,Medium
-Mammographs,Number,Türkiye,2013,905,2.96,Medium
-Radiation therapy equipment,Number,Türkiye,2013,192,2.28,Medium
+Computed Tomography scanners,Number,Turkish,2013,1058,3.02,High
+Magnetic Resonance Imaging units,Number,Turkish,2013,751,2.88,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2013,85,1.93,Low
+Gamma cameras,Number,Turkish,2013,234,2.37,Medium
+Mammographs,Number,Turkish,2013,905,2.96,Medium
+Radiation therapy equipment,Number,Turkish,2013,192,2.28,Medium
 Computed Tomography scanners,Number,United States,2013,13745,4.14,Very High
 Magnetic Resonance Imaging units,Number,United States,2013,11220,4.05,Very High
 Gamma cameras,Number,United States,2013,14825,4.17,Very High
@@ -1696,12 +1696,12 @@ Radiation therapy equipment,Per million population,Switzerland,2013,16.56,1.22,L
 Computed Tomography scanners,Per million population,Switzerland,2013,36.59,1.56,Low
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2013,3.46,0.54,Very Low
 Mammographs,Per million population,Switzerland,2013,33.13,1.52,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2013,1.12,0.05,Very Low
-Computed Tomography scanners,Per million population,Türkiye,2013,13.89,1.14,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2013,9.86,0.99,Very Low
-Gamma cameras,Per million population,Türkiye,2013,3.07,0.49,Very Low
-Mammographs,Per million population,Türkiye,2013,11.88,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2013,2.52,0.4,Very Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2013,1.12,0.05,Very Low
+Computed Tomography scanners,Per million population,Turkish,2013,13.89,1.14,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2013,9.86,0.99,Very Low
+Gamma cameras,Per million population,Turkish,2013,3.07,0.49,Very Low
+Mammographs,Per million population,Turkish,2013,11.88,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2013,2.52,0.4,Very Low
 Computed Tomography scanners,Per million population,United States,2013,43.49,1.64,Low
 Magnetic Resonance Imaging units,Per million population,United States,2013,35.5,1.55,Low
 Gamma cameras,Per million population,United States,2013,46.91,1.67,Low
@@ -1916,12 +1916,12 @@ Computed Tomography scanners,Number,Switzerland,2011,266,2.42,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2011,26,1.41,Low
 Mammographs,Number,Switzerland,2011,259,2.41,Medium
 Radiation therapy equipment,Number,Switzerland,2011,134,2.13,Medium
-Computed Tomography scanners,Number,Türkiye,2011,974,2.99,Medium
-Magnetic Resonance Imaging units,Number,Türkiye,2011,709,2.85,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2011,47,1.67,Low
-Gamma cameras,Number,Türkiye,2011,172,2.24,Medium
-Mammographs,Number,Türkiye,2011,727,2.86,Medium
-Radiation therapy equipment,Number,Türkiye,2011,150,2.18,Medium
+Computed Tomography scanners,Number,Turkish,2011,974,2.99,Medium
+Magnetic Resonance Imaging units,Number,Turkish,2011,709,2.85,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2011,47,1.67,Low
+Gamma cameras,Number,Turkish,2011,172,2.24,Medium
+Mammographs,Number,Turkish,2011,727,2.86,Medium
+Radiation therapy equipment,Number,Turkish,2011,150,2.18,Medium
 Mammographs,Number,United Kingdom,2011,634.31,2.8,Medium
 Computed Tomography scanners,Number,United States,2011,12740,4.11,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2011,1450,3.16,High
@@ -2079,12 +2079,12 @@ Computed Tomography scanners,Per million population,Switzerland,2011,33.62,1.53,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2011,3.29,0.52,Very Low
 Mammographs,Per million population,Switzerland,2011,32.73,1.51,Low
 Radiation therapy equipment,Per million population,Switzerland,2011,16.94,1.23,Low
-Computed Tomography scanners,Per million population,Türkiye,2011,13.12,1.12,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2011,9.55,0.98,Very Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2011,0.63,-0.2,Very Low
-Gamma cameras,Per million population,Türkiye,2011,2.32,0.37,Very Low
-Mammographs,Per million population,Türkiye,2011,9.79,0.99,Very Low
-Radiation therapy equipment,Per million population,Türkiye,2011,2.02,0.31,Very Low
+Computed Tomography scanners,Per million population,Turkish,2011,13.12,1.12,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2011,9.55,0.98,Very Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2011,0.63,-0.2,Very Low
+Gamma cameras,Per million population,Turkish,2011,2.32,0.37,Very Low
+Mammographs,Per million population,Turkish,2011,9.79,0.99,Very Low
+Radiation therapy equipment,Per million population,Turkish,2011,2.02,0.31,Very Low
 Mammographs,Per million population,United Kingdom,2011,10.02,1,Low
 Computed Tomography scanners,Per million population,United States,2011,40.89,1.61,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2011,4.65,0.67,Very Low
@@ -2292,12 +2292,12 @@ Computed Tomography scanners,Number,Switzerland,2018,330,2.52,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2018,32,1.51,Low
 Mammographs,Number,Switzerland,2018,247,2.39,Medium
 Radiation therapy equipment,Number,Switzerland,2018,162,2.21,Medium
-Computed Tomography scanners,Number,Türkiye,2018,1211,3.08,High
-Magnetic Resonance Imaging units,Number,Türkiye,2018,915,2.96,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2018,131,2.12,Medium
-Gamma cameras,Number,Türkiye,2018,268,2.43,Medium
-Mammographs,Number,Türkiye,2018,966,2.98,Medium
-Radiation therapy equipment,Number,Türkiye,2018,224,2.35,Medium
+Computed Tomography scanners,Number,Turkish,2018,1211,3.08,High
+Magnetic Resonance Imaging units,Number,Turkish,2018,915,2.96,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2018,131,2.12,Medium
+Gamma cameras,Number,Turkish,2018,268,2.43,Medium
+Mammographs,Number,Turkish,2018,966,2.98,Medium
+Radiation therapy equipment,Number,Turkish,2018,224,2.35,Medium
 Computed Tomography scanners,Number,United States,2018,14555,4.16,Very High
 Magnetic Resonance Imaging units,Number,United States,2018,12820,4.11,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2018,1715,3.23,High
@@ -2452,12 +2452,12 @@ Computed Tomography scanners,Per million population,Switzerland,2018,38.76,1.59,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2018,3.76,0.58,Very Low
 Mammographs,Per million population,Switzerland,2018,29.01,1.46,Low
 Radiation therapy equipment,Per million population,Switzerland,2018,19.03,1.28,Low
-Computed Tomography scanners,Per million population,Türkiye,2018,14.88,1.17,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2018,11.24,1.05,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2018,1.61,0.21,Very Low
-Gamma cameras,Per million population,Türkiye,2018,3.29,0.52,Very Low
-Mammographs,Per million population,Türkiye,2018,11.87,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2018,2.75,0.44,Very Low
+Computed Tomography scanners,Per million population,Turkish,2018,14.88,1.17,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2018,11.24,1.05,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2018,1.61,0.21,Very Low
+Gamma cameras,Per million population,Turkish,2018,3.29,0.52,Very Low
+Mammographs,Per million population,Turkish,2018,11.87,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2018,2.75,0.44,Very Low
 Computed Tomography scanners,Per million population,United States,2018,44.53,1.65,Low
 Magnetic Resonance Imaging units,Per million population,United States,2018,39.22,1.59,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2018,5.25,0.72,Very Low
@@ -2678,12 +2678,12 @@ Computed Tomography scanners,Number,Switzerland,2020,342,2.53,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2020,34,1.53,Low
 Mammographs,Number,Switzerland,2020,256,2.41,Medium
 Radiation therapy equipment,Number,Switzerland,2020,162,2.21,Medium
-Computed Tomography scanners,Number,Türkiye,2020,1248,3.1,High
-Magnetic Resonance Imaging units,Number,Türkiye,2020,939,2.97,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2020,144,2.16,Medium
-Gamma cameras,Number,Türkiye,2020,273,2.44,Medium
-Mammographs,Number,Türkiye,2020,982,2.99,Medium
-Radiation therapy equipment,Number,Türkiye,2020,245,2.39,Medium
+Computed Tomography scanners,Number,Turkish,2020,1248,3.1,High
+Magnetic Resonance Imaging units,Number,Turkish,2020,939,2.97,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2020,144,2.16,Medium
+Gamma cameras,Number,Turkish,2020,273,2.44,Medium
+Mammographs,Number,Turkish,2020,982,2.99,Medium
+Radiation therapy equipment,Number,Turkish,2020,245,2.39,Medium
 Magnetic Resonance Imaging units,Number,United States,2020,11490,4.06,Very High
 Computed Tomography scanners,Number,United States,2020,14115,4.15,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2020,1905,3.28,High
@@ -2838,12 +2838,12 @@ Computed Tomography scanners,Per million population,Switzerland,2020,39.59,1.6,L
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2020,3.94,0.6,Very Low
 Mammographs,Per million population,Switzerland,2020,29.64,1.47,Low
 Radiation therapy equipment,Per million population,Switzerland,2020,18.75,1.27,Low
-Computed Tomography scanners,Per million population,Türkiye,2020,14.97,1.18,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2020,11.26,1.05,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2020,1.73,0.24,Very Low
-Gamma cameras,Per million population,Türkiye,2020,3.27,0.51,Very Low
-Mammographs,Per million population,Türkiye,2020,11.78,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2020,2.94,0.47,Very Low
+Computed Tomography scanners,Per million population,Turkish,2020,14.97,1.18,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2020,11.26,1.05,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2020,1.73,0.24,Very Low
+Gamma cameras,Per million population,Turkish,2020,3.27,0.51,Very Low
+Mammographs,Per million population,Turkish,2020,11.78,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2020,2.94,0.47,Very Low
 Computed Tomography scanners,Per million population,United States,2020,42.58,1.63,Low
 Magnetic Resonance Imaging units,Per million population,United States,2020,34.66,1.54,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2020,5.75,0.76,Very Low
@@ -3063,12 +3063,12 @@ Computed Tomography scanners,Number,Switzerland,2017,332,2.52,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2017,28,1.45,Low
 Mammographs,Number,Switzerland,2017,243,2.39,Medium
 Radiation therapy equipment,Number,Switzerland,2017,141,2.15,Medium
-Computed Tomography scanners,Number,Türkiye,2017,1186,3.07,High
-Magnetic Resonance Imaging units,Number,Türkiye,2017,884,2.95,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2017,123,2.09,Medium
-Gamma cameras,Number,Türkiye,2017,267,2.43,Medium
-Mammographs,Number,Türkiye,2017,947,2.98,Medium
-Radiation therapy equipment,Number,Türkiye,2017,227,2.36,Medium
+Computed Tomography scanners,Number,Turkish,2017,1186,3.07,High
+Magnetic Resonance Imaging units,Number,Turkish,2017,884,2.95,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2017,123,2.09,Medium
+Gamma cameras,Number,Turkish,2017,267,2.43,Medium
+Mammographs,Number,Turkish,2017,947,2.98,Medium
+Radiation therapy equipment,Number,Turkish,2017,227,2.36,Medium
 Computed Tomography scanners,Number,United States,2017,13890,4.14,Very High
 Magnetic Resonance Imaging units,Number,United States,2017,12235,4.09,Very High
 Mammographs,Number,United States,2017,18061,4.26,Very High
@@ -3230,12 +3230,12 @@ Computed Tomography scanners,Per million population,Switzerland,2017,39.28,1.59,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2017,3.31,0.52,Very Low
 Mammographs,Per million population,Switzerland,2017,28.75,1.46,Low
 Radiation therapy equipment,Per million population,Switzerland,2017,16.68,1.22,Low
-Computed Tomography scanners,Per million population,Türkiye,2017,14.77,1.17,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2017,11.01,1.04,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2017,1.53,0.18,Very Low
-Gamma cameras,Per million population,Türkiye,2017,3.32,0.52,Very Low
-Mammographs,Per million population,Türkiye,2017,11.79,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2017,2.83,0.45,Very Low
+Computed Tomography scanners,Per million population,Turkish,2017,14.77,1.17,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2017,11.01,1.04,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2017,1.53,0.18,Very Low
+Gamma cameras,Per million population,Turkish,2017,3.32,0.52,Very Low
+Mammographs,Per million population,Turkish,2017,11.79,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2017,2.83,0.45,Very Low
 Computed Tomography scanners,Per million population,United States,2017,42.72,1.63,Low
 Magnetic Resonance Imaging units,Per million population,United States,2017,37.63,1.58,Low
 Mammographs,Per million population,United States,2017,55.55,1.74,Low
@@ -3447,12 +3447,12 @@ Computed Tomography scanners,Number,Switzerland,2019,332,2.52,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2019,33,1.52,Low
 Mammographs,Number,Switzerland,2019,251,2.4,Medium
 Radiation therapy equipment,Number,Switzerland,2019,164,2.21,Medium
-Computed Tomography scanners,Number,Türkiye,2019,1213,3.08,High
-Magnetic Resonance Imaging units,Number,Türkiye,2019,902,2.96,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2019,138,2.14,Medium
-Gamma cameras,Number,Türkiye,2019,277,2.44,Medium
-Mammographs,Number,Türkiye,2019,961,2.98,Medium
-Radiation therapy equipment,Number,Türkiye,2019,235,2.37,Medium
+Computed Tomography scanners,Number,Turkish,2019,1213,3.08,High
+Magnetic Resonance Imaging units,Number,Turkish,2019,902,2.96,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2019,138,2.14,Medium
+Gamma cameras,Number,Turkish,2019,277,2.44,Medium
+Mammographs,Number,Turkish,2019,961,2.98,Medium
+Radiation therapy equipment,Number,Turkish,2019,235,2.37,Medium
 Computed Tomography scanners,Number,United States,2019,14750,4.17,Very High
 Magnetic Resonance Imaging units,Number,United States,2019,13275,4.12,Very High
 Positron Emission Tomography (PET) scanners,Number,United States,2019,1790,3.25,High
@@ -3603,12 +3603,12 @@ Computed Tomography scanners,Per million population,Switzerland,2019,38.72,1.59,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2019,3.85,0.59,Very Low
 Mammographs,Per million population,Switzerland,2019,29.27,1.47,Low
 Radiation therapy equipment,Per million population,Switzerland,2019,19.12,1.28,Low
-Computed Tomography scanners,Per million population,Türkiye,2019,14.69,1.17,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2019,10.92,1.04,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2019,1.67,0.22,Very Low
-Gamma cameras,Per million population,Türkiye,2019,3.35,0.53,Very Low
-Mammographs,Per million population,Türkiye,2019,11.64,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2019,2.85,0.45,Very Low
+Computed Tomography scanners,Per million population,Turkish,2019,14.69,1.17,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2019,10.92,1.04,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2019,1.67,0.22,Very Low
+Gamma cameras,Per million population,Turkish,2019,3.35,0.53,Very Low
+Mammographs,Per million population,Turkish,2019,11.64,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2019,2.85,0.45,Very Low
 Computed Tomography scanners,Per million population,United States,2019,44.92,1.65,Low
 Magnetic Resonance Imaging units,Per million population,United States,2019,40.43,1.61,Low
 Positron Emission Tomography (PET) scanners,Per million population,United States,2019,5.45,0.74,Very Low
@@ -3822,12 +3822,12 @@ Computed Tomography scanners,Number,Switzerland,2016,326,2.51,Medium
 Positron Emission Tomography (PET) scanners,Number,Switzerland,2016,28,1.45,Low
 Mammographs,Number,Switzerland,2016,241,2.38,Medium
 Radiation therapy equipment,Number,Switzerland,2016,139,2.14,Medium
-Computed Tomography scanners,Number,Türkiye,2016,1152,3.06,High
-Magnetic Resonance Imaging units,Number,Türkiye,2016,836,2.92,Medium
-Positron Emission Tomography (PET) scanners,Number,Türkiye,2016,119,2.08,Medium
-Gamma cameras,Number,Türkiye,2016,264,2.42,Medium
-Mammographs,Number,Türkiye,2016,931,2.97,Medium
-Radiation therapy equipment,Number,Türkiye,2016,215,2.33,Medium
+Computed Tomography scanners,Number,Turkish,2016,1152,3.06,High
+Magnetic Resonance Imaging units,Number,Turkish,2016,836,2.92,Medium
+Positron Emission Tomography (PET) scanners,Number,Turkish,2016,119,2.08,Medium
+Gamma cameras,Number,Turkish,2016,264,2.42,Medium
+Mammographs,Number,Turkish,2016,931,2.97,Medium
+Radiation therapy equipment,Number,Turkish,2016,215,2.33,Medium
 Computed Tomography scanners,Number,United States,2016,13525,4.13,Very High
 Magnetic Resonance Imaging units,Number,United States,2016,11865,4.07,Very High
 Mammographs,Number,United States,2016,16720,4.22,Very High
@@ -3979,12 +3979,12 @@ Computed Tomography scanners,Per million population,Switzerland,2016,38.93,1.59,
 Positron Emission Tomography (PET) scanners,Per million population,Switzerland,2016,3.34,0.52,Very Low
 Mammographs,Per million population,Switzerland,2016,28.78,1.46,Low
 Radiation therapy equipment,Per million population,Switzerland,2016,16.6,1.22,Low
-Computed Tomography scanners,Per million population,Türkiye,2016,14.53,1.16,Low
-Magnetic Resonance Imaging units,Per million population,Türkiye,2016,10.55,1.02,Low
-Positron Emission Tomography (PET) scanners,Per million population,Türkiye,2016,1.5,0.18,Very Low
-Gamma cameras,Per million population,Türkiye,2016,3.33,0.52,Very Low
-Mammographs,Per million population,Türkiye,2016,11.74,1.07,Low
-Radiation therapy equipment,Per million population,Türkiye,2016,2.71,0.43,Very Low
+Computed Tomography scanners,Per million population,Turkish,2016,14.53,1.16,Low
+Magnetic Resonance Imaging units,Per million population,Turkish,2016,10.55,1.02,Low
+Positron Emission Tomography (PET) scanners,Per million population,Turkish,2016,1.5,0.18,Very Low
+Gamma cameras,Per million population,Turkish,2016,3.33,0.52,Very Low
+Mammographs,Per million population,Turkish,2016,11.74,1.07,Low
+Radiation therapy equipment,Per million population,Turkish,2016,2.71,0.43,Very Low
 Computed Tomography scanners,Per million population,United States,2016,41.86,1.62,Low
 Magnetic Resonance Imaging units,Per million population,United States,2016,36.73,1.57,Low
 Mammographs,Per million population,United States,2016,51.75,1.71,Low

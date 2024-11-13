@@ -26,19 +26,19 @@ ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 p
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2015,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2015,0.43,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2015,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2015,0.25,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2015,0.25,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2015,2.42,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2015,0.34,A
 ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2015,0.1,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2015,30.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,NLD,Netherlands,Europe,2015,7.13,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2015,11.44,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2015,20.17,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2015,20.17,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2015,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,AUT,Austria,Europe,2015,3.04,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2015,0.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2015,9.37,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2015,71.06,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2015,71.06,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,LTU,Lithuania,Europe,2015,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2015,1.44,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,JPN,Japan,Asia,2015,0.13,A
@@ -47,8 +47,8 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2015,0.01,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2015,0.07,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2015,70.2,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2015,25.42,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2015,0.4,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2015,25.42,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2015,0.4,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2015,10.38,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2015,1.58,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUT,Austria,Europe,2015,2.64,A
@@ -77,7 +77,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2015,0.08,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2015,2.41,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2015,6.83,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2015,13.29,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2015,13.29,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2015,12.81,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2015,0.02,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,PRT,Portugal,Europe,2015,68.19,A
@@ -88,7 +88,7 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2015,1.15,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2015,4.17,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2015,0.11,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2015,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2015,0.02,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2015,11.49,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2015,0.7,A
 ICUBCMAX,Critical care adult beds (maximum),Critical Care Adult ICU,Maximum,RTOINPNB,Per 1 000 population,FIN,Finland,Europe,2015,0.05,A
@@ -116,13 +116,13 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2015,8.37,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2015,0.07,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2015,0.11,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2015,0.13,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2015,0.13,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2015,79.74,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2015,0.2,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2015,1.54,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2015,0.2,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2015,1.54,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2015,0.01,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2015,0.02,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2015,40.25,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2015,40.25,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,LVA,Latvia,Europe,2015,9.81,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,ISR,Israel,Asia,2015,20.85,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,CAN,Canada,North America,2015,0.17,A
@@ -163,7 +163,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 populatio
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2018,16.83,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2018,0.5,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2018,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2018,0.3,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2018,0.3,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2018,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2018,2.3,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2018,0.33,A
@@ -171,13 +171,13 @@ ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2018,29.58,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,NLD,Netherlands,Europe,2018,7.02,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2018,11.28,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2018,24.41,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2018,24.41,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,AUT,Austria,Europe,2018,3.45,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,CZE,Czechia,Europe,2018,0.53,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,CRI,Costa Rica,North America,2018,0.03,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2018,0.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2018,9.19,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2018,73.72,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2018,73.72,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,LTU,Lithuania,Europe,2018,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2018,1.47,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,CZE,Czechia,Europe,2018,43.93,A
@@ -189,8 +189,8 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2018,0.01,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2018,0.07,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2018,68.6,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2018,29.57,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2018,0.47,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2018,29.57,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2018,0.47,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,NLD,Netherlands,Europe,2018,71,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2018,10.39,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2018,1.81,A
@@ -223,7 +223,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 populat
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,CRI,Costa Rica,North America,2018,2.98,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2018,6.45,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2018,0.3,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2018,15.23,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2018,15.23,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2018,13.47,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2018,62.3,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2018,0.02,A
@@ -238,7 +238,7 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2018,4.31,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,CZE,Czechia,Europe,2018,52.75,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2018,0.11,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2018,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2018,0.02,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2018,11.56,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,LTU,Lithuania,Europe,2018,23.74,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2018,0.72,A
@@ -268,17 +268,17 @@ ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 p
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2018,0.1,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2018,8.54,A
 ICUORMAX,Total adult ICU occupancy rate (maximum),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2018,71.6,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2018,2,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2018,2,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2018,0.08,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2018,0.12,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2018,0.15,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2018,0.15,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2018,77.28,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2018,0.24,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2018,0.24,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,USA,United States,North America,2018,1.57,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2018,0.01,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2018,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,USA,United States,North America,2018,0.07,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2018,46.8,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2018,46.8,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2018,0.09,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CRI,Costa Rica,North America,2018,1.62,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2018,0.05,A
@@ -323,7 +323,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 popul
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,CRI,Costa Rica,North America,2020,1.27,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2020,0.5,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2020,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2020,0.39,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2020,0.39,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHL,Chile,South America,2020,83.21,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2020,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2020,2.48,A
@@ -333,7 +333,7 @@ ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 p
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,KOR,Korea,Asia,2020,16.53,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,NLD,Netherlands,Europe,2020,6.97,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2020,13.47,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2020,33.73,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2020,33.73,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,GRC,Greece,Europe,2020,0.68,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,KOR,Korea,Asia,2020,0.2,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2020,0.18,A
@@ -342,7 +342,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 populat
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,CZE,Czechia,Europe,2020,0.53,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2020,0.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2020,9.11,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2020,58.94,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2020,58.94,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,NZL,New Zealand,Oceania,2020,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2020,1.48,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,CZE,Czechia,Europe,2020,43.78,A
@@ -360,8 +360,8 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 populat
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2020,0.07,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2020,69.1,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2020,0.01,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2020,39.17,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2020,0.57,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2020,39.17,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2020,0.57,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2020,12.27,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2020,1.73,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2020,5.38,A
@@ -404,7 +404,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 populat
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2020,7.65,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2020,0.3,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2020,0.2,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2020,15.69,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2020,15.69,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2020,13.93,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,GRC,Greece,Europe,2020,19.98,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2020,55.1,A
@@ -430,7 +430,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 populatio
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,KOR,Korea,Asia,2020,58.7,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2020,0.13,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2020,0.01,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2020,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2020,0.02,A
 ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 population,BEL,Belgium,Europe,2020,0.36,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2020,14.83,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2020,0.71,A
@@ -467,12 +467,12 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2020,11.64,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,KOR,Korea,Asia,2020,0.17,A
 ICUORMAX,Total adult ICU occupancy rate (maximum),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2020,63.7,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2020,2.35,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2020,2.35,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2020,0.08,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2020,0.15,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2020,0.16,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2020,0.16,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2020,77.47,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2020,0.34,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2020,0.34,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,USA,United States,North America,2020,1.5,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2020,20.89,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2020,0.01,A
@@ -480,7 +480,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 pop
 ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2020,16.87,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2020,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,USA,United States,North America,2020,0.07,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2020,57.2,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2020,57.2,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2020,0.05,A
 ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOALLNB,Per 100 000 population,ISR,Israel,Asia,2020,10.3,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2020,0.05,A
@@ -518,7 +518,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 populatio
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2017,16.82,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2017,0.49,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2017,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2017,0.28,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2017,0.28,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2017,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2017,2.47,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2017,0.34,A
@@ -526,11 +526,11 @@ ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2017,30.37,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,NLD,Netherlands,Europe,2017,6.95,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2017,11.43,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2017,23.4,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2017,23.4,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,AUT,Austria,Europe,2017,3.34,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2017,0.07,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2017,9.31,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2017,72.57,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2017,72.57,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,LTU,Lithuania,Europe,2017,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2017,1.34,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,JPN,Japan,Asia,2017,0.13,A
@@ -540,8 +540,8 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2017,0.01,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2017,0.07,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2017,68.2,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2017,28.3,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2017,0.45,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2017,28.3,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2017,0.45,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,NLD,Netherlands,Europe,2017,69,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2017,10.24,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2017,1.7,A
@@ -569,7 +569,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2017,0.08,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2017,2.37,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2017,6.94,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2017,14.92,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2017,14.92,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2017,13.31,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2017,0.02,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,PRT,Portugal,Europe,2017,62.27,A
@@ -581,7 +581,7 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2017,1.16,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2017,4.22,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2017,0.11,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2017,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2017,0.02,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2017,11.49,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,LTU,Lithuania,Europe,2017,24.15,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2017,0.66,A
@@ -607,15 +607,15 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2017,11.99,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2017,0.09,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2017,8.37,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2017,1.9,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2017,1.9,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2017,0.08,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2017,0.11,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2017,0.15,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2017,0.15,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2017,78.07,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2017,0.23,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2017,0.23,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2017,0.01,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2017,0.02,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2017,45.12,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2017,45.12,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2017,0.09,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,LVA,Latvia,Europe,2017,9.53,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,ISR,Israel,Asia,2017,20.72,A
@@ -654,7 +654,7 @@ ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 pop
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2019,0.02,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2019,0.52,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2019,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2019,0.31,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2019,0.31,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHL,Chile,South America,2019,89.41,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2019,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2019,2.19,A
@@ -663,7 +663,7 @@ ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2019,28.21,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,KOR,Korea,Asia,2019,16.12,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2019,11.27,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2019,25.56,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2019,25.56,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,KOR,Korea,Asia,2019,0.2,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2019,0.15,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,LUX,Luxembourg,Europe,2019,0.21,A
@@ -672,7 +672,7 @@ ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 popu
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,CRI,Costa Rica,North America,2019,0.03,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2019,0.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2019,9.19,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2019,74.56,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2019,74.56,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,NZL,New Zealand,Oceania,2019,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,LTU,Lithuania,Europe,2019,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2019,1.24,A
@@ -686,8 +686,8 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2019,0.01,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,LUX,Luxembourg,Europe,2019,2.58,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2019,71.8,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2019,30.71,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2019,0.48,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2019,30.71,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2019,0.48,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,GRC,Greece,Europe,2019,0.66,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2019,10.21,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2019,1.77,A
@@ -728,7 +728,7 @@ ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 p
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2019,6.81,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2019,0.29,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2019,0.18,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2019,15.52,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2019,15.52,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2019,13.75,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,GRC,Greece,Europe,2019,17.53,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2019,61.6,A
@@ -753,7 +753,7 @@ ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 popu
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,KOR,Korea,Asia,2019,0.04,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,KOR,Korea,Asia,2019,64.5,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,GRC,Greece,Europe,2019,0.01,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2019,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2019,0.02,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2019,12.07,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2019,0.92,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,LUX,Luxembourg,Europe,2019,0.81,A
@@ -789,12 +789,12 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2019,8.96,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,KOR,Korea,Asia,2019,0.16,A
 ICUORMAX,Total adult ICU occupancy rate (maximum),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CZE,Czechia,Europe,2019,68.6,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2019,2.15,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2019,2.15,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2019,0.08,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2019,0.12,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2019,0.16,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2019,0.16,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2019,75.74,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2019,0.26,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2019,0.26,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,USA,United States,North America,2019,1.57,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2019,18.71,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2019,0.01,A
@@ -802,7 +802,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 pop
 ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2019,11.27,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2019,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,USA,United States,North America,2019,0.07,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2019,48.38,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2019,48.38,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2019,0.09,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CRI,Costa Rica,North America,2019,1.44,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,USA,United States,North America,2019,0.05,A
@@ -840,7 +840,7 @@ ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 populatio
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2016,16.77,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,AUS,Australia,Oceania,2016,0.45,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2016,0.21,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2016,0.26,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2016,0.26,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,ISR,Israel,Asia,2016,0.02,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2016,2.47,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2016,0.34,A
@@ -848,11 +848,11 @@ ICUBAMAX,Total adult ICU beds (maximum),Adult ICU,Maximum,RTOINPNB,Per 1 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2016,30.06,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,NLD,Netherlands,Europe,2016,7.1,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,HUN,Hungary,Europe,2016,11.47,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2016,21.17,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2016,21.17,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,AUT,Austria,Europe,2016,3.18,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,CHE,Switzerland,Europe,2016,0.08,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2016,9.47,A
-ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Türkiye,Asia,2016,71.05,A
+ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,TUR,Turkish,Asia,2016,71.05,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,LTU,Lithuania,Europe,2016,0.03,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,CHE,Switzerland,Europe,2016,1.49,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,JPN,Japan,Asia,2016,0.13,A
@@ -861,8 +861,8 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,DEU,Germany,Europe,2016,0.01,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,NLD,Netherlands,Europe,2016,0.07,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,AUS,Australia,Oceania,2016,68.9,A
-ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2016,26.38,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2016,0.42,A
+ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2016,26.38,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2016,0.42,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,NLD,Netherlands,Europe,2016,73,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2016,10.26,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,ESP,Spain,Europe,2016,1.64,A
@@ -890,7 +890,7 @@ ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 pop
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2016,0.09,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2016,2.4,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,MEX,Mexico,North America,2016,7.13,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2016,13.8,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2016,13.8,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,JPN,Japan,Asia,2016,13.13,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2016,0.02,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,PRT,Portugal,Europe,2016,68.59,A
@@ -902,7 +902,7 @@ ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCC
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,DEU,Germany,Europe,2016,1.07,A
 ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOALLNB,Per 100 000 population,CAN,Canada,North America,2016,4.27,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,HUN,Hungary,Europe,2016,0.11,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2016,0.02,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2016,0.02,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2016,11.72,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2016,0.72,A
 ICUBCMAX,Critical care adult beds (maximum),Critical Care Adult ICU,Maximum,RTOINPNB,Per 1 000 population,FIN,Finland,Europe,2016,0.05,A
@@ -930,13 +930,13 @@ ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOI
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOALLNB,Per 100 000 population,PRT,Portugal,Europe,2016,8.53,A
 ICUBAAVG,Total adult ICU beds (average),Adult ICU,Average,RTOINPNB,Per 1 000 population,AUS,Australia,Oceania,2016,0.08,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2016,0.12,A
-ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2016,0.14,A
+ICUBNEON,Total neonatal ICU beds,Neonatal ICU,Total,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2016,0.14,A
 ICUORAVG,Total adult ICU occupancy rate (average),Adult ICU,Occupancy Rate,TXOCCUTX,% of available beds,CHE,Switzerland,Europe,2016,79.26,A
-ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Türkiye,Asia,2016,0.21,A
-ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2016,1.52,A
+ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOINPNB,Per 1 000 population,TUR,Turkish,Asia,2016,0.21,A
+ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2016,1.52,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,PRT,Portugal,Europe,2016,0.01,A
 ICUBPAED,Total paediatric ICU beds,Paediatric ICU,Total,RTOINPNB,Per 1 000 population,FRA,France,Europe,2016,0.02,A
-ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Türkiye,Asia,2016,41.71,A
+ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,TUR,Turkish,Asia,2016,41.71,A
 ICUBCAVG,Critical care adult beds (average),Critical Care Adult ICU,Average,RTOALLNB,Per 100 000 population,LVA,Latvia,Europe,2016,9.65,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOALLNB,Per 100 000 population,ISR,Israel,Asia,2016,20.75,A
 ICUBTOTA,Total ICU beds (average),Total ICU Beds,Average,RTOINPNB,Per 1 000 population,CAN,Canada,North America,2016,0.17,A

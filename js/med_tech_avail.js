@@ -20,6 +20,9 @@ const colorScale_med = d3.scaleOrdinal()
 // Tooltip for interactivity (optional)
 const tooltip_med = d3.select("#tooltip_med");
 
+// Variable to track zoom state
+let isZoomed = false; // Track whether the chart is zoomed in or not
+
 // Load data
 d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
   // Convert necessary fields to numbers
@@ -99,11 +102,13 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
           .attr("opacity", 1); // Reset opacity
       })
       .on("click", function(event, d) {
-        drillDown(d);
-        transitionZoom(d); // Smooth zoom on single click
-      })
-      .on("dblclick", function() {
-        resetZoom(); // Reset zoom on double-click
+        if (isZoomed) {
+          resetZoom(); // Reset to original position if already zoomed in
+        } else {
+          drillDown(d);
+          transitionZoom(d); // Zoom in on first click
+        }
+        isZoomed = !isZoomed; // Toggle zoom state
       });
 
     bubblesEnter.merge(bubbles)

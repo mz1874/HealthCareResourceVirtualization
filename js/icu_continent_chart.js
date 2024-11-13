@@ -1,4 +1,4 @@
-// Existing SVG and chart setup code...
+// Set up SVG dimensions with increased width and right margin for the legend
 const svgWidth = 900, svgHeight = 500;
 const margin_icu = { top: 40, right: 150, bottom: 80, left: 60 };
 const chartWidth = svgWidth - margin_icu.left - margin_icu.right;
@@ -10,6 +10,15 @@ const svg_icu = d3.select("#chart-container svg")
     .style("background-color", "#ffffff")
     .style("box-shadow", "0 4px 8px rgba(0, 0, 0, 0.1)");
 
+// Add chart title
+svg_icu.append("text")
+    .attr("x", (svgWidth / 2))
+    .attr("y", margin_icu.top / 2)
+    .attr("text-anchor", "middle")
+    .style("font-size", "20px")
+    .style("font-weight", "bold")
+    .text("ICU Bed Usage across OECD Continents");
+
 // Create chart group to apply margins
 const chart = svg_icu.append("g")
     .attr("transform", `translate(${margin_icu.left},${margin_icu.top})`);
@@ -17,7 +26,14 @@ const chart = svg_icu.append("g")
 // Tooltip for displaying bar segment information
 const tooltip_icu = d3.select("body").append("div")
     .attr("class", "tooltip")
-    .style("opacity", 0);
+    .style("opacity", 0)
+    .style("position", "absolute")
+    .style("background", "#fff")
+    .style("color", "#333")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("border-radius", "5px")
+    .style("box-shadow", "0 4px 8px rgba(0, 0, 0, 0.2)");
 
 // Define the color scale for ICU types
 const colorScale = d3.scaleOrdinal()
@@ -124,13 +140,13 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
                     .attr("height", 0)
                     .on("mouseover", function(event, d) {
                         const icuType = d3.select(this.parentNode).datum().key;
-                        tooltip_icu.transition().duration(200).style("opacity", 0.9);
-                        tooltip_icu.html(`Year: ${selectedYear}<br>ICU Type: ${icuType}<br>Value: ${(d[1] - d[0]).toFixed(2)}`)
+                        tooltip_icu.transition().duration(300).style("opacity", 1);
+                        tooltip_icu.html(`ICU Type: ${icuType}<br>Value: ${(d[1] - d[0]).toFixed(2)}`)
                             .style("left", (event.pageX + 10) + "px")
                             .style("top", (event.pageY - 28) + "px");
                     })
                     .on("mouseout", function() {
-                        tooltip_icu.transition().duration(500).style("opacity", 0);
+                        tooltip_icu.transition().duration(300).style("opacity", 0);
                     })
                     .transition()
                     .duration(800)
@@ -168,8 +184,11 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
     // Initialize the chart with the first year
     updateChart(years[0]);
 
-    // Add event listener to update the chart when the year slider is moved
-    document.getElementById("year-slider_bar").addEventListener("input", function() {
+    // Adjust the slider to cover 2010-2020 and add event listener
+    const yearSlider = document.getElementById("year-slider_bar");
+    yearSlider.setAttribute("min", 2010);
+    yearSlider.setAttribute("max", 2020);
+    yearSlider.addEventListener("input", function() {
         updateChart(+this.value);
     });
 });

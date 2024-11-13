@@ -53,7 +53,7 @@ const subtitleElement = svg_chart.append("text")
 
 // Create a tooltip element
 const tooltip_chart = d3.select("body").append("div")
-  .attr("id", "tooltip")
+  .attr("id", "tooltip_chart")
   .style("position", "absolute")
   .style("display", "none")
   .style("background", "#f8f8f8")
@@ -88,7 +88,7 @@ d3.json("json/hierarchical_data.json").then(data => {
 
   const colorScale = d3.scaleOrdinal()
     .domain(['parent', 'leaf'])
-    .range(['#4682b4', '#94a3b8']);
+    .range(['#94A187', '#E07A5F']);
 
   function getColor(d) {
     return d.children ? colorScale('parent') : colorScale('leaf');
@@ -125,7 +125,7 @@ d3.json("json/hierarchical_data.json").then(data => {
     const enterBars = bars.enter()
       .append("g")
       .attr("class", "bar")
-      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i *30})`)
+      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i * 30})`)
       .style("opacity", 0);
 
     // Add labels

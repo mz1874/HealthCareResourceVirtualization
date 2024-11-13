@@ -88,7 +88,7 @@ d3.json("json/hierarchical_data.json").then(data => {
 
   const colorScale = d3.scaleOrdinal()
     .domain(['parent', 'leaf'])
-    .range(['#4682b4', '#94a3b8']);
+    .range(['#94A187', '#E07A5F']);
 
   function getColor(d) {
     return d.children ? colorScale('parent') : colorScale('leaf');
@@ -125,7 +125,7 @@ d3.json("json/hierarchical_data.json").then(data => {
     const enterBars = bars.enter()
       .append("g")
       .attr("class", "bar")
-      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i *30})`)
+      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i * 30})`)
       .style("opacity", 0);
 
     // Add labels

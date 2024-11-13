@@ -1,13 +1,12 @@
 // Set up dimensions and margins
-const width = 900;
-const height = 600;
-const margin = 10;
+const width_med = 900;
+const height_med = 600;
 
 // Create SVG container
-const svg = d3.select("#chart")
+const svg_med = d3.select("#chart_med")
   .append("svg")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", width_med)
+    .attr("height", height_med)
     .style("cursor", "pointer")
     .call(d3.zoom()
       .scaleExtent([0.5, 5]) // Set zoom range from 50% to 500%
@@ -16,26 +15,26 @@ const svg = d3.select("#chart")
 
 // Define the zoomed function to apply transformations
 function zoomed(event) {
-  g.attr("transform", event.transform);
+  g_med.attr("transform", event.transform);
 }
 
 // Define the reset zoom function to return to the initial state
 function resetZoom() {
-  svg.transition().duration(1000).ease(d3.easeCubic)
+  svg_med.transition().duration(1000).ease(d3.easeCubic)
     .call(d3.zoom().transform, d3.zoomIdentity);
   d3.select("#details").html(""); // Clear drill-down details
 }
 
 // Add a group to hold the bubbles and apply transformations for zoom
-const g = svg.append("g");
+const g_med = svg_med.append("g");
 
 // Define colors for each availability category
-const colorScale = d3.scaleOrdinal()
+const colorScale_med = d3.scaleOrdinal()
   .domain(["Very Low", "Low", "Medium", "High", "Very High"])
   .range(["#FFBC42", "#D81159", "#8F2D56", "#218380", "#73D2DE"]); // Vibrant colors for contrast
 
 // Tooltip for interactivity (you can remove this if not needed)
-const tooltip = d3.select("#tooltip");
+const tooltip_med = d3.select("#tooltip_med");
 
 // Load data
 d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
@@ -53,7 +52,7 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
   });
 
   // Set up the interactive year slider
-  d3.select("#yearSlider").on("input", function() {
+  d3.select("#yearSlider_med").on("input", function() {
     const selectedYear = +this.value;
     updateChart(selectedYear, technologyFilter.node().value); // Update the chart based on the slider value
   });
@@ -77,7 +76,7 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
       .domain([0, d3.max(filteredData, d => d.OBS_VALUE)])
       .range([5, 40]);
 
-    const bubbles = g.selectAll("circle")
+    const bubbles = g_med.selectAll("circle")
       .data(filteredData, d => d.id);
 
     bubbles.exit().remove();
@@ -85,7 +84,7 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
     const bubblesEnter = bubbles.enter().append("circle")
       .attr("class", d => `bubble bubble-${d.Availability_Category}`)
       .attr("r", 0)
-      .attr("fill", d => colorScale(d.Availability_Category))
+      .attr("fill", d => colorScale_med(d.Availability_Category))
       .attr("stroke", "#000")
       .attr("stroke-opacity", 0.3)
       .attr("stroke-width", 1)
@@ -115,8 +114,8 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
     
     // Update simulation
     const simulation = d3.forceSimulation(filteredData)
-      .force("x", d3.forceX(width / 2).strength(0.05))
-      .force("y", d3.forceY(height / 2).strength(0.05))
+      .force("x", d3.forceX(width_med / 2).strength(0.05))
+      .force("y", d3.forceY(height_med / 2).strength(0.05))
       .force("collide", d3.forceCollide(d => radiusScale(d.OBS_VALUE) + 1))
       .alphaDecay(0.05)
       .on("tick", () => {
@@ -139,12 +138,12 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
 
     // Create zoom transformation centered on the clicked bubble
     const transform = d3.zoomIdentity
-      .translate(width / 2, height / 2)
+      .translate(width_med / 2, height_med / 2)
       .scale(2) // Zoom level
       .translate(-dataPoint.x, -dataPoint.y);
     
     // Apply the zoom transformation with a smooth transition
-    svg.transition().duration(1000).ease(d3.easeCubic)
+    svg_med.transition().duration(1000).ease(d3.easeCubic)
       .call(d3.zoom().transform, transform);
   }
 });

@@ -50,7 +50,7 @@
                     <li>Physician changing trends</li>
                     <li>Hospital</li>
                     <li>ICU Bed</li>
-                    <li>Trends</li>
+                    <li>MED</li>
                 </ul>
                 <div class="layui-tab-content">
                     <div class="layui-tab-item layui-show">
@@ -117,7 +117,36 @@
                         </div>
                     </div>
                     <div class="layui-tab-item">
-                        ss2
+                        <h2 class="chart-title">Availability of Medical Technology across OECD Countries</h2>
+
+                        <!-- Controls container -->
+                        <div class="controls">
+                            <div>
+                                <label for="technologyFilter">Technology Type:</label>
+                                <select id="technologyFilter">
+                                    <option value="All">All</option>
+                                </select>
+                            </div>
+
+                            <!-- Year Slider -->
+                            <div class="timeslider-container" style="margin-top: 20px">
+                                <label for="yearSlider_med">Year:</label>
+                                <input type="range" id="yearSlider_med" min="2010" max="2020" step="1" value="2020">
+                                <span id="yearDisplay">2020</span>
+                            </div>
+                        </div>
+
+                        <!-- Chart container -->
+                        <div id="chart-container_med">
+                            <div id="chart_med"></div>
+                            <div id="details">
+                                <h3>Details Panel</h3>
+                                <p>Select a bubble to view more details here.</p>
+                            </div>
+                        </div>
+
+                        <div id="tooltip_med" class="tooltip"></div>
+
                     </div>
                 </div>
             </div>
@@ -137,8 +166,14 @@
 <script src="js/line_chart.js"></script>
 <script src="js/chart.js"></script>
 <script src="js/icu_continent_chart.js"></script>
-<script>
+<script src="js/med_tech_avail.js"></script>
 
+<script>
+    const yearSlider_med = document.getElementById('yearSlider_med');
+    const yearDisplay = document.getElementById('yearDisplay');
+    yearSlider_med.addEventListener('input', function() {
+        yearDisplay.textContent = yearSlider_med.value;
+    });
 </script>
 
 </body>

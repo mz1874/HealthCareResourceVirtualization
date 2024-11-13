@@ -53,7 +53,7 @@ const subtitleElement = svg_chart.append("text")
 
 // Create a tooltip element
 const tooltip_chart = d3.select("body").append("div")
-  .attr("id", "tooltip")
+  .attr("id", "tooltip_chart")
   .style("position", "absolute")
   .style("display", "none")
   .style("background", "#f8f8f8")

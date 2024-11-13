@@ -19,25 +19,25 @@ function buildPath(node) {
 }
 
 // Set dimensions and margins for the chart
-const width = 800, height = 200;
+const width_chart = 1300, height_chart = 400;
 const margin = { top: 30, right: 30, bottom: 0, left: 200 };
 const duration = 750;
 
 // Create an SVG container
-const svg = d3.select("#chart")
+const svg_chart = d3.select("#chart")
   .append("svg")
-  .attr("width", width)
-  .attr("height", height)
-  .attr("viewBox", `0 0 ${width} ${height}`)
+  .attr("width", width_chart)
+  .attr("height", height_chart)
+  .attr("viewBox", `0 0 ${width_chart} ${height_chart}`)
   .style("max-width", "100%")
   .style("height", "auto")
   .attr("cursor", "pointer")
   .style("border", "1px solid #ccc");
 
 // Add a single, persistent title element
-const titleElement = svg.append("text")
+const titleElement = svg_chart.append("text")
   .attr("class", "chart-title-main")
-  .attr("x", width / 2)
+  .attr("x", width_chart / 2)
   .attr("y", margin.top - 10)
   .attr("text-anchor", "middle")
   .style("font-size", "16px")
@@ -45,16 +45,16 @@ const titleElement = svg.append("text")
   .text("Distribution of Hospitals by Type and Ownership (2010 vs 2020)");
 
 // Add subtitle for current level
-const subtitleElement = svg.append("text")
+const subtitleElement = svg_chart.append("text")
   .attr("class", "chart-subtitle")
-  .attr("x", width / 2)
+  .attr("x", width_chart / 2)
   .attr("y", margin.top + 10)
   .attr("text-anchor", "middle")
-  .style("font-size", "14px")
+  .style("font-size", "16px")
   .style("fill", "#666");
 
 // Create a tooltip element
-const tooltip = d3.select("body").append("div")
+const tooltip_chart = d3.select("body").append("div")
   .attr("id", "tooltip")
   .style("position", "absolute")
   .style("display", "none")
@@ -74,15 +74,15 @@ d3.json("json/hierarchical_data.json").then(data => {
     .sort((a, b) => b.value - a.value);
 
   // X-scale setup
-  const x = d3.scaleLinear().range([margin.left, width - margin.right]);
+  const x = d3.scaleLinear().range([margin.left, width_chart - margin.right]);
   x.domain([0, root.value]);
 
   // Add background for click handling
-  svg.append("rect")
+  svg_chart.append("rect")
     .attr("class", "background")
     .attr("fill", "transparent")
-    .attr("width", width)
-    .attr("height", height)
+    .attr("width", width_chart)
+    .attr("height", height_chart)
     .on("click", () => up());
 
   const colorScale = d3.scaleOrdinal()
@@ -93,12 +93,12 @@ d3.json("json/hierarchical_data.json").then(data => {
     return d.children ? colorScale('parent') : colorScale('leaf');
   }
 
-  const barsContainer = svg.append("g")
+  const barsContainer = svg_chart.append("g")
     .attr("class", "bars-container");
 
   function drawBars(d) {
     // Store current node
-    svg.property("currentNode", d);
+    svg_chart.property("currentNode", d);
 
     // Update subtitle with the current path
     subtitleElement.text(buildPath(d));
@@ -136,15 +136,15 @@ d3.json("json/hierarchical_data.json").then(data => {
       .text(d => truncateText(d.data.name, 20)) // Truncate long names with ellipsis
       .style("fill", "#000")
       .on("mouseover", function(event, d) {
-        tooltip.style("display", "inline-block")
+        tooltip_chart.style("display", "inline-block")
           .html(d.data.name); // Show full name in the tooltip
       })
       .on("mousemove", function(event) {
-        tooltip.style("left", (event.pageX + 10) + "px")
+        tooltip_chart.style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 20) + "px");
       })
       .on("mouseout", function() {
-        tooltip.style("display", "none");
+        tooltip_chart.style("display", "none");
       });
 
     // Add rectangles with hover event for value tooltip
@@ -154,15 +154,15 @@ d3.json("json/hierarchical_data.json").then(data => {
       .attr("height", 24)
       .style("fill", getColor)
       .on("mouseover", function(event, d) {
-        tooltip.style("display", "inline-block")
+        tooltip_chart.style("display", "inline-block")
           .html(`Value: ${d.value}`);
       })
       .on("mousemove", function(event) {
-        tooltip.style("left", (event.pageX + 10) + "px")
+        tooltip_chart.style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 20) + "px");
       })
       .on("mouseout", function() {
-        tooltip.style("display", "none");
+        tooltip_chart.style("display", "none");
       });
 
     // Update + Enter transitions

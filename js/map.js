@@ -152,8 +152,8 @@ function clicked(event, d) {
     } else {
         tooltip.style("opacity", 1)
             .html(`<strong>${selectedCountry}</strong><br><strong>Year: ${selectedYear}</strong><br>No data`)
-            .style("left", (event.pageX + 50) + "px")
-            .style("top", (event.pageY - 40) + "px");
+            .style("left", (event.pageX -  300) + "px")
+            .style("top", (event.pageY - 400) + "px");
     }
 }
 

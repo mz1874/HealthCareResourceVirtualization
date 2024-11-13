@@ -7,6 +7,8 @@
     <link href="css/home.css" rel="stylesheet">
     <script src="js/d3.v7.js"></script>
     <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/styles.css">
+<!--    <link rel="stylesheet" href="css/icu_continent.css">-->
     <style>
 
     </style>
@@ -46,12 +48,11 @@
                 <ul class="layui-tab-title">
                     <li class="layui-this">Overall physician in counties</li>
                     <li>Physician changing trends</li>
-                    <li>Staff</li>
-                    <li>Coverage</li>
+                    <li>Hospital</li>
+                    <li>ICU Bed</li>
                     <li>Trends</li>
                 </ul>
                 <div class="layui-tab-content">
-
                     <div class="layui-tab-item layui-show">
                         <div class="tooltip" id="tooltip"></div>
                         <!-- Globe Display -->
@@ -74,9 +75,50 @@
                             </div>
                         </div>
                     </div>
-                    <div class="layui-tab-item">Content for Staff</div>
-                    <div class="layui-tab-item">Content for Coverage</div>
-                    <div class="layui-tab-item">Content for Trends</div>
+                    <div class="layui-tab-item">
+                        <div class="layui-tab-item layui-show">
+                            <div class="info-box">
+                                <h2>Contextual Information</h2>
+                                <p>The hierarchical bar chart is designed to help users understand the distribution and changes in the number of hospitals by type and ownership between the years 2010 and 2020. It visualizes the hierarchical structure of hospitals, breaking down the total number of hospitals into various categories based on ownership type and whether they are public or private.</p>
+                            </div>
+                            <div id="chart">
+                                <!-- Chart content would go here -->
+                            </div>
+                            <div class="overview">
+                                <h2>Hospital Distribution Overview (2010-2020)</h2>
+                                <p>The hierarchical bar chart shows the distribution of hospitals by ownership and category from 2010 to 2020. The data includes general, public, and private hospitals (for-profit and not-for-profit).</p>
+                                <h3>Hospital Ownership Models:</h3>
+                                <ul>
+                                    <li><strong>Public Hospitals:</strong> Government-funded and focused on essential services, often in underserved areas.</li>
+                                    <li><strong>Private Hospitals:</strong> Divided into:
+                                        <ul>
+                                            <li><strong>For-Profit:</strong> Revenue-focused, offering specialized services.</li>
+                                            <li><strong>Not-for-Profit:</strong> Run by charitable entities, reinvesting surplus into services.</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <h3>General Hospitals:</h3>
+                                <p>Serve diverse healthcare needs and can be publicly or privately owned.</p>
+
+                                <h3>Healthcare Policies (2010-2020):</h3>
+                                <p>Government initiatives and private healthcare regulations during this period likely influenced hospital distribution and types, such as funding for public hospitals or incentives for private ones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div id="chart-container">
+                            <svg></svg>
+                            <!-- Static Timeslider for year selection -->
+                            <div class="timeslider-container"  style="margin-left: 50px; margin-top: 30px">
+                                <span>Year:</span>
+                                <span id="year-display"></span>
+                                <input id="year-slider_bar" type="range" min="2000" max="2020" step="1" value="2000" style="width: 900px;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        ss2
+                    </div>
                 </div>
             </div>
         </div>
@@ -93,7 +135,8 @@
 <script src="layui/layui.js"></script>
 <script src="js/map.js"></script>
 <script src="js/line_chart.js"></script>
-
+<script src="js/chart.js"></script>
+<script src="js/icu_continent_chart.js"></script>
 <script>
 
 </script>

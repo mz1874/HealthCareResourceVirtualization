@@ -29,8 +29,8 @@
 </div>
 
 <!-- Chart container -->
-<div id="chart-container_med">
-  <div id="chart_med"></div>
+<div id="chart-container">
+  <div id="chart"></div>
   <div id="details">
     <h3>Details Panel</h3>
     <p>Select a bubble to view more details here.</p>
@@ -40,15 +40,16 @@
 <div id="tooltip_med" class="tooltip"></div>
 
 <!-- Load JavaScript code -->
-  <script src="js/med_tech_avail.js"></script>
+<script src="js/med_tech_avail.js"></script>
 
-  <!-- Script to update year display from slider -->
-  <script>
-    const yearSlider = document.getElementById('yearSlider_med');
-    const yearDisplay = document.getElementById('yearDisplay');
-    yearSlider.addEventListener('input', function() {
-      yearDisplay.textContent = yearSlider.value;
-    });
-  </script>
+<!-- Script to update year display from slider -->
+<script>
+  const yearSlider = document.getElementById('yearSlider_med');
+  const yearDisplay = document.getElementById('yearDisplay');
+  yearSlider.addEventListener('input', function() {
+    yearDisplay.textContent = yearSlider.value;
+  });
+</script>
+
 </body>
 </html>

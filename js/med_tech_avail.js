@@ -1,29 +1,13 @@
-// Set up dimensions and margins
+// Set up dimensions and margins 
 const width_med = 900;
 const height_med = 600;
 
 // Create SVG container
 const svg_med = d3.select("#chart_med")
   .append("svg")
-    .attr("width", width_med)
-    .attr("height", height_med)
-    .style("cursor", "pointer")
-    .call(d3.zoom()
-      .scaleExtent([0.5, 5]) // Set zoom range from 50% to 500%
-      .on("zoom", zoomed)) // Call zoomed function on zoom event
-    .on("dblclick.zoom", resetZoom); // Reset zoom on double-click anywhere
-
-// Define the zoomed function to apply transformations
-function zoomed(event) {
-  g_med.attr("transform", event.transform);
-}
-
-// Define the reset zoom function to return to the initial state
-function resetZoom() {
-  svg_med.transition().duration(1000).ease(d3.easeCubic)
-    .call(d3.zoom().transform, d3.zoomIdentity);
-  d3.select("#details").html(""); // Clear drill-down details
-}
+  .attr("width", width_med)
+  .attr("height", height_med)
+  .style("cursor", "pointer");
 
 // Add a group to hold the bubbles and apply transformations for zoom
 const g_med = svg_med.append("g");
@@ -33,7 +17,7 @@ const colorScale_med = d3.scaleOrdinal()
   .domain(["Very Low", "Low", "Medium", "High", "Very High"])
   .range(["#FFBC42", "#D81159", "#8F2D56", "#218380", "#73D2DE"]); // Vibrant colors for contrast
 
-// Tooltip for interactivity (you can remove this if not needed)
+// Tooltip for interactivity (optional)
 const tooltip_med = d3.select("#tooltip_med");
 
 // Load data
@@ -42,7 +26,13 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
   data.forEach(d => {
     d.OBS_VALUE = +d.OBS_VALUE; // Use OBS_VALUE for bubble size
     d.Year = +d.Year;
+    d.id = `${d.Country}-${d.Technology_Types}-${d.Year}`; // Unique id for each bubble
   });
+
+  // Variables to store the current year and technology type
+  const minYear = d3.min(data, d => d.Year); // Get the minimum year in the dataset
+  let currentYear = minYear; // Start with the minimum year
+  let currentTechnologyType = "All";
 
   // Populate the technology filter dropdown
   const uniqueTechnologies = [...new Set(data.map(d => d.Technology_Types))];
@@ -51,19 +41,25 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
     technologyFilter.append("option").text(tech).attr("value", tech);
   });
 
-  // Set up the interactive year slider
-  d3.select("#yearSlider_med").on("input", function() {
-    const selectedYear = +this.value;
-    updateChart(selectedYear, technologyFilter.node().value); // Update the chart based on the slider value
-  });
+  // Set the initial year slider value to the minimum year and update chart
+  d3.select("#yearSlider_med")
+    .attr("min", minYear)
+    .attr("max", d3.max(data, d => d.Year))
+    .attr("value", minYear)
+    .on("input", function() {
+      currentYear = +this.value;
+      resetZoom(); // Reset zoom before updating chart
+      updateChart(currentYear, currentTechnologyType);
+    });
 
-  // Event listener for technology filter
   d3.select("#technologyFilter").on("change", function() {
-    updateChart(yearSlider.value, this.value);
+    currentTechnologyType = this.value;
+    resetZoom(); // Reset zoom before updating chart
+    updateChart(currentYear, currentTechnologyType);
   });
 
-  // Initial render of the chart
-  updateChart(d3.max(data, d => d.Year), "All");
+  // Initial render of the chart with minimum year and "All" technology types
+  updateChart(currentYear, currentTechnologyType);
 
   // Function to update the chart based on selected year and technology
   function updateChart(year, technologyType) {
@@ -83,20 +79,20 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
 
     const bubblesEnter = bubbles.enter().append("circle")
       .attr("class", d => `bubble bubble-${d.Availability_Category}`)
-      .attr("r", 0)
+      .attr("r", d => radiusScale(d.OBS_VALUE))
       .attr("fill", d => colorScale_med(d.Availability_Category))
       .attr("stroke", "#000")
       .attr("stroke-opacity", 0.3)
       .attr("stroke-width", 1)
+      .attr("cx", d => d.x)
+      .attr("cy", d => d.y)
       .on("mouseover", function(event, d) {
-        // Enlarge and increase opacity on hover
         d3.select(this)
           .transition().duration(200)
           .attr("r", d => radiusScale(d.OBS_VALUE) * 1.2) // Enlarge by 20%
           .attr("opacity", 0.8);
       })
       .on("mouseout", function() {
-        // Reset size and opacity when not hovering
         d3.select(this)
           .transition().duration(200)
           .attr("r", d => radiusScale(d.OBS_VALUE)) // Reset to original size
@@ -104,14 +100,17 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
       })
       .on("click", function(event, d) {
         drillDown(d);
+        transitionZoom(d); // Smooth zoom on single click
+      })
+      .on("dblclick", function() {
+        resetZoom(); // Reset zoom on double-click
       });
 
     bubblesEnter.merge(bubbles)
       .transition().duration(1000).ease(d3.easeCubicOut)
-      .attr("r", d => radiusScale(d.OBS_VALUE))
       .attr("cx", d => d.x)
       .attr("cy", d => d.y);
-    
+   
     // Update simulation
     const simulation = d3.forceSimulation(filteredData)
       .force("x", d3.forceX(width_med / 2).strength(0.05))
@@ -125,25 +124,61 @@ d3.csv("cleaned/OECD_MED_TECH_AVAIL.csv").then(data => {
       });
   }
 
+  // Smooth zoom transition function
+  function transitionZoom(d) {
+    const radius = 40; // The zoom radius (adjustable)
+    const i = d3.interpolateZoom([width_med / 2, height_med / 2, height_med], [d.x, d.y, radius * 2 + 1]);
+
+    g_med.transition()
+      .duration(i.duration)
+      .attrTween("transform", () => t => `
+        translate(${width_med / 2}, ${height_med / 2})
+        scale(${height_med / i(t)[2]})
+        translate(${-i(t)[0]}, ${-i(t)[1]})
+      `);
+  }
+
+  // Reset zoom function to return to original view
+  function resetZoom() {
+    g_med.transition()
+      .duration(1000)
+      .attr("transform", `translate(0,0) scale(1)`);
+  }
+
   // Drill-down function to show more details on click
   function drillDown(dataPoint) {
-    // Display details about the clicked bubble
+    let description = "";
+
+    switch (dataPoint.Technology_Types) {
+      case "Computed Tomography scanners":
+        description = "Computed tomography, or CT scan, uses X-rays and computer technology to produce images of internal body parts, showing bones, organs, and blood vessels.";
+        break;
+      case "Magnetic Resonance Imaging units":
+        description = "MRI is a noninvasive imaging test that produces detailed images of organs, muscles, and blood vessels using a large magnet and radio waves.";
+        break;
+      case "Positron Emission Tomography (PET) scanners":
+        description = "PET is a nuclear medicine procedure that measures the metabolic activity of cells in tissues, combining nuclear medicine with biochemical analysis.";
+        break;
+      case "Gamma cameras":
+        description = "Gamma cameras are used in nuclear medicine imaging to capture functional images of organs and tissues by detecting gamma radiation.";
+        break;
+      case "Mammographs":
+        description = "Mammography is an X-ray imaging method used to detect breast cancer and other abnormalities in breast tissue.";
+        break;
+      case "Radiation therapy equipment":
+        description = "Radiation therapy equipment is used in oncology to treat cancer by delivering precise doses of radiation to cancerous tissues.";
+        break;
+      default:
+        description = "Detailed information is currently unavailable.";
+    }
+
     d3.select("#details").html(`
-      <h3>Details for ${dataPoint.Country}</h3>
+      <h3>Information for ${dataPoint.Country}</h3>
       <p><strong>Technology:</strong> ${dataPoint.Technology_Types}</p>
       <p><strong>Availability Category:</strong> ${dataPoint.Availability_Category}</p>
       <p><strong>Year:</strong> ${dataPoint.Year}</p>
       <p><strong>Value:</strong> ${dataPoint.OBS_VALUE}</p>
+      <p><strong>Description:</strong> ${description}</p>
     `);
-
-    // Create zoom transformation centered on the clicked bubble
-    const transform = d3.zoomIdentity
-      .translate(width_med / 2, height_med / 2)
-      .scale(2) // Zoom level
-      .translate(-dataPoint.x, -dataPoint.y);
-    
-    // Apply the zoom transformation with a smooth transition
-    svg_med.transition().duration(1000).ease(d3.easeCubic)
-      .call(d3.zoom().transform, transform);
   }
 });

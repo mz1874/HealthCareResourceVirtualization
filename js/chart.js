@@ -8,13 +8,11 @@ function buildPath(node) {
   let path = [];
   let currentNode = node;
   
-  // Traverse up to the root, gathering each node's name
   while (currentNode) {
     path.unshift(currentNode.data.name);
     currentNode = currentNode.parent;
   }
   
-  // Join the path with arrows or any separator of your choice
   return path.join(" -> ");
 }
 
@@ -83,7 +81,10 @@ d3.json("json/hierarchical_data.json").then(data => {
     .attr("fill", "transparent")
     .attr("width", width_chart)
     .attr("height", height_chart)
-    .on("click", () => up());
+    .on("click", (event) => {
+      event.stopPropagation();
+      up();
+    });
 
   const colorScale = d3.scaleOrdinal()
     .domain(['parent', 'leaf'])
@@ -106,15 +107,15 @@ d3.json("json/hierarchical_data.json").then(data => {
     // Update x-scale
     x.domain([0, d.value]);
 
-    // Bind data to bars with a unique key (e.g., the node name)
+    // Bind data to bars with a unique key
     const bars = barsContainer.selectAll("g.bar")
       .data(d.children || [], d => d.data.name);
 
-    // Remove exiting bars with a proper exit transition
+    // Remove exiting bars
     bars.exit()
       .transition()
       .duration(duration / 2)
-      .style("opacity", 0) // Fade out effect
+      .style("opacity", 0)
       .remove();
 
     // Clear existing bars to avoid duplicates
@@ -124,20 +125,20 @@ d3.json("json/hierarchical_data.json").then(data => {
     const enterBars = bars.enter()
       .append("g")
       .attr("class", "bar")
-      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i * 40})`)
+      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i *30})`)
       .style("opacity", 0);
 
-    // Add labels with hover event for tooltip
+    // Add labels
     enterBars.append("text")
       .attr("x", margin.left - 6)
       .attr("y", 13.5)
       .attr("dy", "0.35em")
       .attr("text-anchor", "end")
-      .text(d => truncateText(d.data.name, 20)) // Truncate long names with ellipsis
+      .text(d => truncateText(d.data.name, 20))
       .style("fill", "#000")
       .on("mouseover", function(event, d) {
         tooltip_chart.style("display", "inline-block")
-          .html(d.data.name); // Show full name in the tooltip
+          .html(d.data.name);
       })
       .on("mousemove", function(event) {
         tooltip_chart.style("left", (event.pageX + 10) + "px")
@@ -147,7 +148,7 @@ d3.json("json/hierarchical_data.json").then(data => {
         tooltip_chart.style("display", "none");
       });
 
-    // Add rectangles with hover event for value tooltip
+    // Add rectangles
     enterBars.append("rect")
       .attr("x", x(0))
       .attr("width", 0)
@@ -168,13 +169,12 @@ d3.json("json/hierarchical_data.json").then(data => {
     // Update + Enter transitions
     const barsUpdate = enterBars.merge(bars);
 
-    // Apply transformations and transitions
     barsUpdate
       .transition()
       .delay((d, i) => i * 50)
       .duration(duration)
       .style("opacity", 1)
-      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i * 27})`);
+      .attr("transform", (d, i) => `translate(0, ${margin.top + 20 + i * 30})`);
 
     barsUpdate.select("rect")
       .transition()
@@ -182,16 +182,14 @@ d3.json("json/hierarchical_data.json").then(data => {
       .duration(duration)
       .attr("width", d => Math.max(0, x(d.value) - x(0)));
 
-    // Add interactivity for child navigation
+    // Add interactivity
     barsUpdate.each(function(d) {
       const bar = d3.select(this);
       
-      // Clear any existing event listeners
       bar.on("click", null)
          .on("mouseenter", null)
          .on("mouseleave", null);
 
-      // Add new event listeners
       if (d.children) {
         bar
           .style("cursor", "pointer")
@@ -216,7 +214,7 @@ d3.json("json/hierarchical_data.json").then(data => {
   }
 
   function up() {
-    const current = svg.property("currentNode");
+    const current = svg_chart.property("currentNode");
     
     if (current && current.parent) {
       drawBars(current.parent);

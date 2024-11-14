@@ -1,15 +1,15 @@
 // Define dimensions for the chart.
-const width = 928;
-const height = 924;
+const width_mri = 928;
+const height_mri = 1010;
 
 // This custom tiling function adapts the built-in binary tiling function for aspect ratio adjustment.
 function tile(node, x0, y0, x1, y1) {
-  d3.treemapBinary(node, 0, 0, width, height);
+  d3.treemapBinary(node, 0, 0, width_mri, height_mri);
   for (const child of node.children) {
-    child.x0 = x0 + child.x0 / width * (x1 - x0);
-    child.x1 = x0 + child.x1 / width * (x1 - x0);
-    child.y0 = y0 + child.y0 / height * (y1 - y0);
-    child.y1 = y0 + child.y1 / height * (y1 - y0);
+    child.x0 = x0 + child.x0 / width_mri * (x1 - x0);
+    child.x1 = x0 + child.x1 / width_mri * (x1 - x0);
+    child.y0 = y0 + child.y0 / height_mri * (y1 - y0);
+    child.y1 = y0 + child.y1 / height_mri * (y1 - y0);
   }
 }
 
@@ -22,8 +22,8 @@ function renderChart(data) {
   const root = d3.treemap().tile(tile)(hierarchy);
 
   // Create the scales.
-  const x = d3.scaleLinear().rangeRound([0, width]);
-  const y = d3.scaleLinear().rangeRound([0, height]);
+  const x = d3.scaleLinear().rangeRound([0, width_mri]);
+  const y = d3.scaleLinear().rangeRound([0, height_mri]);
 
   // Formatting utilities.
   const format = d3.format(",d");
@@ -31,9 +31,9 @@ function renderChart(data) {
 
   // Create the SVG container.
   const svg = d3.create("svg")
-    .attr("viewBox", [0.5, -30.5, width, height + 30])
-    .attr("width", width)
-    .attr("height", height + 30)
+    .attr("viewBox", [0.5, -30.5, width_mri, height_mri + 30])
+    .attr("width", width_mri)
+    .attr("height", height_mri + 30)
     .attr("style", "max-width: 100%; height: auto;")
     .style("font", "10px sans-serif");
 
@@ -83,7 +83,7 @@ function renderChart(data) {
     group.selectAll("g")
       .attr("transform", d => d === root ? `translate(0,-30)` : `translate(${x(d.x0)},${y(d.y0)})`)
       .select("rect")
-      .attr("width", d => d === root ? width : x(d.x1) - x(d.x0))
+      .attr("width", d => d === root ? width_mri : x(d.x1) - x(d.x0))
       .attr("height", d => d === root ? 30 : y(d.y1) - y(d.y0));
   }
 
@@ -113,7 +113,7 @@ function renderChart(data) {
       .call(t => group1.transition(t).call(position, d.parent));
   }
 
-  document.getElementById("chart").appendChild(svg.node());
+  document.getElementById("chart_mri").appendChild(svg.node());
 }
 
 // Load the JSON data file using D3.js and call renderChart function.

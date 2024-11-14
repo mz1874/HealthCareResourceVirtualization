@@ -2,46 +2,268 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive Rotating Globe with D3.js</title>
+    <title>Health Care Resource Virtualization Group 6</title>
+    <link href="layui/css/layui.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
     <script src="js/d3.v7.js"></script>
     <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <!--    <link rel="stylesheet" href="css/icu_continent.css">-->
+    <style>
+
+    </style>
 </head>
 <body>
 
-<div style="text-align: right;">
-    <ul>
-        <li><a href="icu_continent.html">ICU Bed Usage across Continents </a></li>
-        <li><a href="hospital_comparison.html">Hospital Comparison</a></li>
-        <li><a href="med_tech_avail.html">Medical Technology Availability  </a></li>
-        <li><a href="mri.html">MRI Compatrison </a></li>
-    </ul>
-</div>
-
-<!-- Globe Display -->
-<!-- Year Slider -->
-<input type="range" id="year-slider" min="2000" max="2020" step="1" value="2000" style="position: absolute; top: 10px; left: 10px;">
-<!-- Year Label -->
-<div id="year-label" style="position: absolute; top: 10px; left: 400px;">Year: 2000</div>
-
-<svg id="globe" width="960" height="800"></svg>
-<div class="tooltip" id="tooltip"></div>
-<hr>
-
-<div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
-    <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
-        <label for="country-select">Select a Country:</label>
-        <select id="country-select"></select>
+<div class="layui-container">
+    <!-- Header Section -->
+    <div class="layui-row layui-text-center">
+        <div class="layui-col-md12">
+            <h1>Comparing Development of Health Care Resources Over the Decade</h1>
+            <p>
+                Welcome to the Health Care Resource Virtualization Data Display Platform. Here, we showcase the trends
+                and changes in health care resources over the past decade across various dimensions.
+            </p>
+        </div>
     </div>
-    <svg id="line-chart" width="960" height="400" style="margin-top: 40px"></svg>
-    <div id="legend" style="margin-left: 20px;"></div> <!-- 图例的位置 -->
+
+    <!-- Introduction Section -->
+    <div class="layui-row content-section">
+        <div class="layui-col-md12">
+            <h2>Introduction to Health Resources</h2>
+            <p>
+                Health resources are key indicators of the quality and accessibility of medical services within society.
+                The following points outline major aspects of health resource development.
+            </p>
+            <ul>
+                <li><strong>Medical Facilities:</strong> Covers the number and distribution of medical facilities.</li>
+                <li><strong>Medical Staff:</strong> The growth in the number of healthcare professionals.</li>
+                <li><strong>Health Service Coverage:</strong> Emphasizes the importance of expanding health service
+                    coverage.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Tab Section with Chart Area in Content -->
+    <div class="layui-row content-section">
+        <div class="layui-col-md12">
+            <div class="layui-tab layui-tab-card">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">Overall physician in counties</li>
+                    <li>Physician changing trends</li>
+                    <li>Hospital</li>
+                    <li>ICU Bed</li>
+                    <li>MED</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show ">
+                        <div class="layui-row">
+                            <div class="layui-col-md8">
+                                <div class="tooltip" id="tooltip"></div>
+                                <svg id="globe" width="960" height="800"></svg>
+                            </div>
+                            <div class="layui-col-md4">
+                                <div class="layui-card">
+                                    <div class="layui-card-header"><b style="font-size: 20px"> Physician distribution in
+                                        the Wrold</b></div>
+                                    <div class="layui-card-body">
+                                        <input type="range" id="year-slider" min="2010" max="2020" step="1" value="2000"
+                                               style="float: right; margin-right: 50px">
+                                        <div id="year-label" style="float: right; padding-right: 50px">Year: 2000</div>
+                                        <br>
+                                        <b>Description</b>
+                                        <hr>
+                                        <br>
+                                        This map shows how different category physicians distributed in the world during
+                                        the period of 2010 to 2020
+                                        <hr>
+                                    </div>
+                                    <div class="layui-card-body" style="margin-top: 10px">
+                                        <b>How to use</b>
+                                        <hr>
+                                        The country color will be changed according to total physician change , user can
+                                        check detailed category information by click the country
+                                        <hr>
+                                        User can zoom in, zoom out, rotate the world map to check a specified year
+                                        according to the slider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-card-body" style="margin-top: 10px">
+                                <b>Description and How to use</b>
+                                <hr>
+                                <p>The line graph shows the changing trends of different category physicians over the
+                                    period of 2010 to 2020</p>
+                                <br>
+                                <p>User can use the selector to select different country </p>
+                            </div>
+                            <hr>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
+                                <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
+                                    <label for="country-select">Select a Country:</label>
+                                    <select id="country-select"></select>
+                                    <br>
+                                </div>
+                                <svg id="line-chart" width="960" height="400" style="margin-top: 40px"></svg>
+                                <div id="legend" style="margin-left: 20px;"></div>
+                                <div class="tooltip" id="tooltip2" style="position: absolute;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        <div class="layui-tab-item layui-show">
+                            <div class="info-box">
+                                <h2>Contextual Information</h2>
+                                <p>The hierarchical bar chart is designed to help users understand the distribution and
+                                    changes in the number of hospitals by type and ownership between the years 2010 and
+                                    2020. It visualizes the hierarchical structure of hospitals, breaking down the total
+                                    number of hospitals into various categories based on ownership type and whether they
+                                    are public or private.</p>
+                            </div>
+                            <div id="chart">
+                                <!-- Chart content would go here -->
+                            </div>
+                            <div class="overview">
+                                <h2>Hospital Distribution Overview (2010-2020)</h2>
+                                <p>The hierarchical bar chart shows the distribution of hospitals by ownership and
+                                    category from 2010 to 2020. The data includes general, public, and private hospitals
+                                    (for-profit and not-for-profit).</p>
+                                <h3>Hospital Ownership Models:</h3>
+                                <ul>
+                                    <li><strong>Public Hospitals:</strong> Government-funded and focused on essential
+                                        services, often in underserved areas.
+                                    </li>
+                                    <li><strong>Private Hospitals:</strong> Divided into:
+                                        <ul>
+                                            <li><strong>For-Profit:</strong> Revenue-focused, offering specialized
+                                                services.
+                                            </li>
+                                            <li><strong>Not-for-Profit:</strong> Run by charitable entities, reinvesting
+                                                surplus into services.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <h3>General Hospitals:</h3>
+                                <p>Serve diverse healthcare needs and can be publicly or privately owned.</p>
+
+                                <h3>Healthcare Policies (2010-2020):</h3>
+                                <p>Government initiatives and private healthcare regulations during this period likely
+                                    influenced hospital distribution and types, such as funding for public hospitals or
+                                    incentives for private ones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--                    ICU Start-->
+                    <div class="layui-tab-item">
+                        <div id="chart-container">
+                            <div class="layui-row">
+                                <div class="layui-col-md8">
+                                    <svg></svg>
+                                    <span>Year:</span>
+                                    <span id="year-display"></span>
+                                    <input id="year-slider_bar" type="range" min="2000" max="2020" step="1" value="2000"
+                                           style="width: 900px;">
+                                </div>
+                                <div class="layui-col-md3 layui-col-md-offset1">
+                                    <div class="layui-card-body">
+                                        <h3>Description</h3>
+                                        <br>
+                                        This stacked bar chart shows ICU bed usage in OECD countries by continent and
+                                        bed type, including adult, pediatric, neonatal, and critical care ICUs. It
+                                        highlights regional variations and the relative share of each bed type, offering
+                                        insights into healthcare capacity for both routine and emergency needs.
+                                        <br>
+                                        <br>
+                                        Accurate ICU usage data supports proactive resource allocation, surge planning,
+                                        and healthcare resilience, promoting equitable access across OECD regions.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Static Timeslider for year selection -->
+
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+
+                        <div class="layui-row">
+                            <div class="layui-col-md8">
+                                <!-- Chart container -->
+                                <div id="chart-container_med">
+                                    <div id="chart_med"></div>
+                                </div>
+                                <div id="tooltip_med" class="tooltip"></div>
+                            </div>
+                            <div class="layui-col-md4">
+                                <h2 class="chart-title">Availability of Medical Technology across OECD Countries</h2>
+                                <!-- Controls container -->
+                                <div class="controls">
+                                    <div>
+                                        <label for="technologyFilter">Technology Type:</label>
+                                        <select id="technologyFilter">
+                                            <option value="All">All</option>
+                                        </select>
+                                    </div>
+                                    <!-- Year Slider -->
+                                    <div class="timeslider-container" style="margin-top: 20px">
+                                        <label for="yearSlider_med">Year:</label>
+                                        <input type="range" id="yearSlider_med" min="2010" max="2020" step="1"
+                                               value="2020">
+                                        <span id="yearDisplay">2020</span>
+                                    </div>
+                                    <br>
+                                    <div id="details" style="background-color: #f1efef">
+                                        <h3>Details Panel</h3>
+                                        <p>Select a bubble to view more details here.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-row">
+                            <div class="layui-col-md12">
+                                Medical technology encompasses a wide range of tools and methods for diagnosing,
+                                monitoring, and treating health issues, directly impacting healthcare quality and
+                                patient outcomes. This chart compares the availability of key medical technologies, such
+                                as CT scanners, MRI units, and radiation therapy equipment, across OECD nations.
+                                Understanding the distribution of these resources helps policymakers and healthcare
+                                providers make informed decisions to enhance healthcare access and quality, address
+                                disparities, and ensure timely, effective patient care.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<!-- Footer Section -->
+<div class="footer">
+    <p>&copy; 2024 Health Care Resource Virtualization . All rights reserved.</p>
+    <p>&copy;Group 6: Wang Chong &nbsp;Wan Huey Shin&nbsp; Jerusha</p>
+</div>
 
-<div class="tooltip" id="tooltip2" style="position: absolute; visibility: hidden;"></div>
-
-
+<!-- Import Layui JavaScript -->
+<script src="layui/layui.js"></script>
 <script src="js/map.js"></script>
 <script src="js/line_chart.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/icu_continent_chart.js"></script>
+<script src="js/med_tech_avail.js"></script>
+
+<script>
+    const yearSlider_med = document.getElementById('yearSlider_med');
+    const yearDisplay = document.getElementById('yearDisplay');
+    yearSlider_med.addEventListener('input', function () {
+        yearDisplay.textContent = yearSlider_med.value;
+    });
+</script>
+
 </body>
 </html>

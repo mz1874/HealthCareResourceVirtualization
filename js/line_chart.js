@@ -81,7 +81,7 @@
             .attr("y", 10)
             .attr("fill", "currentColor")
             .attr("text-anchor", "start")
-            .text("↑ Number of Doctors");
+            .text("↑ Number of Physician");
 
         // 绑定并绘制每个变量类型的线条路径
         const paths = svg.selectAll(".line-path")
@@ -115,8 +115,8 @@
                     .text(`${d.type}: ${d.OBS_VALUE}`);
             })
             .on("mousemove", (event) => {
-                tooltip.style("top", `${event.pageY - 10}px`)
-                    .style("left", `${event.pageX + 10}px`);
+                tooltip.style("top", `${event.pageY -650}px`)
+                    .style("left", `${event.pageX -300}px`);
             })
             .on("mouseout", () => {
                 tooltip.style("visibility", "hidden");

@@ -53,25 +53,54 @@
                     <li>MED</li>
                 </ul>
                 <div class="layui-tab-content">
-                    <div class="layui-tab-item layui-show">
-                        <div class="tooltip" id="tooltip"></div>
-                        <!-- Globe Display -->
-                        <!-- Year Slider -->
-                        <input type="range" id="year-slider" min="2000" max="2020" step="1" value="2000" style="float: right; margin-right: 50px">
-                        <!-- Year Label -->
-                        <div id="year-label" style="float: right; padding-right: 50px">Year: 2000</div>
-                        <svg id="globe" width="960" height="800"></svg>
+                    <div class="layui-tab-item layui-show ">
+                        <div class="layui-row">
+                            <div class="layui-col-md8">
+                                <div class="tooltip" id="tooltip"></div>
+                                <svg id="globe" width="960" height="800"></svg>
+                            </div>
+                            <div class="layui-col-md4">
+                                <div class="layui-card">
+                                    <div class="layui-card-header"><b style="font-size: 20px"> Physician distribution in the Wrold</b></div>
+                                    <div class="layui-card-body">
+                                        <input type="range" id="year-slider" min="2010" max="2020" step="1" value="2000" style="float: right; margin-right: 50px">
+                                        <div id="year-label" style="float: right; padding-right: 50px">Year: 2000</div>
+                                        <br>
+                                        <b>Description</b>
+                                        <hr>
+                                        <br>
+                                        This map shows how different category physicians distributed in the world during the period of 2010 to 2020
+                                        <hr>
+                                    </div>
+                                    <div class="layui-card-body" style="margin-top: 10px">
+                                        <b>How to use</b>
+                                        <hr>
+                                        The country color will be changed  according to total physician change , user can  check  detailed category information by click the country
+                                        <hr>
+                                        User can zoom in, zoom out, rotate the world map to check a specified year according to the slider.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="layui-tab-item">
                         <div class="layui-tab-item layui-show">
+                            <div class="layui-card-body" style="margin-top: 10px">
+                                <b>Description and How to use</b>
+                                <hr>
+                                <p>The line graph shows the changing trends of different category physicians over the period of 2010 to 2020</p>
+                                <br>
+                                <p>User can use the selector to select different country </p>
+                            </div>
+                            <hr>
                             <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
                                 <div style="position: absolute; top: -20px; left: 0; margin: 20px;">
                                     <label for="country-select">Select a Country:</label>
                                     <select id="country-select"></select>
                                 </div>
                                 <svg id="line-chart" width="960" height="400" style="margin-top: 40px"></svg>
-                                <div id="legend" style="margin-left: 20px;"></div> <!-- 图例的位置 -->
-                                <div class="tooltip" id="tooltip2" style="position: absolute; visibility: hidden;"></div>
+                                <div id="legend" style="margin-left: 20px;"></div>
+                                <div class="tooltip" id="tooltip2" style="position: absolute;"></div>
                             </div>
                         </div>
                     </div>

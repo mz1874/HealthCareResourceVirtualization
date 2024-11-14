@@ -53,6 +53,7 @@ d3.csv("cleaned/Health_employment_education(cleaned).csv").then(data => {
         .attr("value", years[0]);  // Set the initial value to the first year
 
     yearLabel.text("Year: " + years[0]);
+    yearLabel.attr("font-weight", "bold");
 
     // Define the color scale for OBS_VALUE
     const colorScale = d3.scaleThreshold()
@@ -82,7 +83,7 @@ d3.csv("cleaned/Health_employment_education(cleaned).csv").then(data => {
     yearSlider.on("input", function() {
         const selectedYear = this.value;
         yearLabel.text("Year: " + selectedYear);
-
+        yearLabel.attr("font-weight", "bold");
         // Recalculate the max value for the selected year to dynamically update the color scale
         const obsValuesForYear = Object.values(totalOBSByCountry).map(countryData => countryData[selectedYear] || 0);
         const maxObsValue = d3.max(obsValuesForYear);

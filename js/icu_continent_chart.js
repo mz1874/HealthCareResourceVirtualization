@@ -17,6 +17,7 @@ svg_icu.append("text")
     .attr("text-anchor", "middle")
     .style("font-size", "20px")
     .style("font-weight", "bold")
+    .style("fill", "#007bff") 
     .text("ICU Bed Usage across OECD Continents");
 
 // Create chart group to apply margins

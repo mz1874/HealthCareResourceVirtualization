@@ -1,5 +1,5 @@
 // Set up dimensions and margins 
-const width_med = 900;
+const width_med = 800;
 const height_med = 600;
 
 // Create SVG container

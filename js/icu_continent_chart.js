@@ -74,11 +74,12 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
 
     // Create legend for ICU types
     const legendContainer = svg_icu.append("g")
-        .attr("transform", `translate(${chartWidth + margin_icu.left + 20}, ${margin_icu.top})`);
+        .attr("transform", `translate(${chartWidth + margin_icu.left -40}, ${margin_icu.top})`);
 
     icuTypes.forEach((type, i) => {
         const legendItem = legendContainer.append("g")
             .attr("transform", `translate(0, ${i * 25})`);
+
 
         legendItem.append("rect")
             .attr("width", 15)
@@ -90,7 +91,7 @@ d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
             .style("stroke-width", 0.5);
 
         legendItem.append("text")
-            .attr("x", 25)
+            .attr("x", 40)
             .attr("y", 12)
             .text(type)
             .style("font-size", "14px")

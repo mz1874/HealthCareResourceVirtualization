@@ -134,15 +134,30 @@
                             </div>
                         </div>
                     </div>
+<!--                    ICU Start-->
                     <div class="layui-tab-item">
                         <div id="chart-container">
-                            <svg></svg>
-                            <!-- Static Timeslider for year selection -->
-                            <div class="timeslider-container"  style="margin-left: 50px; margin-top: 30px">
-                                <span>Year:</span>
-                                <span id="year-display"></span>
-                                <input id="year-slider_bar" type="range" min="2000" max="2020" step="1" value="2000" style="width: 900px;">
+                            <div class="layui-row">
+                                <div class="layui-col-md8">
+                                    <svg></svg>
+                                    <span>Year:</span>
+                                    <span id="year-display"></span>
+                                    <input id="year-slider_bar" type="range" min="2000" max="2020" step="1" value="2000" style="width: 900px;">
+                                </div>
+                                <div class="layui-col-md3 layui-col-md-offset1" >
+                                    <div class="layui-card-body">
+                                        <h3>Description</h3>
+                                        <br>
+                                            This stacked bar chart shows ICU bed usage in OECD countries by continent and bed type, including adult, pediatric, neonatal, and critical care ICUs. It highlights regional variations and the relative share of each bed type, offering insights into healthcare capacity for both routine and emergency needs.
+                                        <br>
+                                        <br>
+                                        Accurate ICU usage data supports proactive resource allocation, surge planning, and healthcare resilience, promoting equitable access across OECD regions.
+                                    </div>
+                                </div>
                             </div>
+
+                            <!-- Static Timeslider for year selection -->
+
                         </div>
                     </div>
                     <div class="layui-tab-item">

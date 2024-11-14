@@ -1,5 +1,5 @@
 // Set up SVG dimensions with increased width and right margin for the legend
-const svgWidth = 900, svgHeight = 500;
+const svgWidth = 950, svgHeight = 500;
 const margin_icu = { top: 40, right: 150, bottom: 80, left: 60 };
 const chartWidth = svgWidth - margin_icu.left - margin_icu.right;
 const chartHeight = svgHeight - margin_icu.top - margin_icu.bottom;

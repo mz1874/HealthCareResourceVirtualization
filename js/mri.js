@@ -25,9 +25,9 @@ function renderChart(data) {
   const x = d3.scaleLinear().rangeRound([0, width_mri]);
   const y = d3.scaleLinear().rangeRound([0, height_mri]);
 
-  // Define a color scale based on the value range
-  const color = d3.scaleSequential(d3.interpolateBlues)
-      .domain([0, root.value]);  // Adjust based on max value
+  // // Define a color scale based on the value range
+  // const color = d3.scaleSequential(d3.interpolateBlues)
+  //     .domain([0, root.value]);  // Adjust based on max value
 
   // Formatting utilities.
   const format = d3.format(",d");
@@ -56,8 +56,8 @@ function renderChart(data) {
         .text(d => `${name(d)}\n${format(d.value)}`);
 
     node.append("rect")
-        .attr("fill", d => d === root ? "#fff" : color(d.value))  // Apply color based on value
-        .attr("stroke", "#fff");
+      .attr("fill", d => d === root ? "#fff" : d.children ? "#ccc" : "#ddd")
+      .attr("stroke", "#fff");
 
     node.append("clipPath")
         .append("use");

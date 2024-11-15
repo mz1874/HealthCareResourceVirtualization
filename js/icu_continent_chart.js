@@ -52,6 +52,27 @@ const xAxis = chart.append("g")
 
 const yAxis = chart.append("g").attr("class", "axis");
 
+// Add x-axis label
+svg_icu.append("text")
+    .attr("x", margin_icu.left + chartWidth / 2) // Center horizontally in the chart area
+    .attr("y", svgHeight - margin_icu.bottom / 4) // Place slightly below the x-axis
+    .attr("text-anchor", "middle")
+    .style("font-size", "16px")
+    .style("fill", "#333")
+    .style("font-weight", "bold")
+    .text("Continent");
+
+// Add y-axis label
+svg_icu.append("text")
+    .attr("x", -chartHeight / 2) // Center vertically along the y-axis
+    .attr("y", margin_icu.left / 3) // Slightly away from the y-axis
+    .attr("text-anchor", "middle")
+    .attr("transform", "rotate(-90)") // Rotate to make the text vertical
+    .style("font-size", "16px")
+    .style("fill", "#333")
+    .style("font-weight", "bold")
+    .text("Total (%)");
+
 // Load the CSV data
 d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
     // Parse numerical values

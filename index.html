@@ -74,21 +74,30 @@
                                                style="float: right; margin-right: 50px">
                                         <div id="year-label" style="float: right; padding-right: 50px">Year: 2000</div>
                                         <br>
-                                        <b>Description</b>
+                                        <b style="font-size: 15px">Description</b>
                                         <hr>
                                         <br>
-                                        This map shows how different category physicians distributed in the world during
-                                        the period of 2010 to 2020
-                                        <hr>
+                                        This world map visualizes the global distribution of physicians across various
+                                        categories during the period from 2010 to 2020. Each country is color-coded to
+                                        reflect the total change in the number of physicians, providing an intuitive way
+                                        to identify regions with significant growth or decline. The map highlights
+                                        trends in healthcare workforce distribution, helping users understand shifts in
+                                        medical specialization on a global scale.
                                     </div>
                                     <div class="layui-card-body" style="margin-top: 10px">
-                                        <b>How to use</b>
+                                        <b style="font-size: 15px">How to use</b>
                                         <hr>
-                                        The country color will be changed according to total physician change , user can
-                                        check detailed category information by click the country
+                                        The color of each country dynamically changes based on the total change in
+                                        physicians during the selected period. - Users can click on a country to view
+                                        detailed information about specific physician categories and their changes over
+                                        time.
                                         <hr>
-                                        User can zoom in, zoom out, rotate the world map to check a specified year
-                                        according to the slider.
+                                        A slider allows users to select a specific year to analyze the data for
+                                        that particular time frame. - The map supports zooming, panning, and rotating
+                                        for enhanced navigation, making it easy to focus on specific regions or
+                                        countries. - Combine these features to explore global trends and analyze
+                                        detailed country-level data interactively.
+
                                     </div>
                                 </div>
                             </div>
@@ -97,12 +106,18 @@
                     <div class="layui-tab-item">
                         <div class="layui-tab-item layui-show">
                             <div class="layui-card-body" style="margin-top: 10px">
-                                <b>Description and How to use</b>
+                                <b style="font-size: 20px"> Description and How to Use</b>
                                 <hr>
-                                <p>The line graph shows the changing trends of different category physicians over the
-                                    period of 2010 to 2020</p>
-                                <br>
-                                <p>User can use the selector to select different country </p>
+                                <p>This interactive line graph illustrates the trends in physician categories across
+                                    different years, from 2010 to 2020. Each line represents a category, allowing users
+                                    to observe how the number of physicians in each category has changed over time. This
+                                    visualization provides insights into the growth, stability, or decline of various
+                                    medical specialties within the selected timeframe.</p> <br>
+                                <p>Users can utilize the country selector to view data for specific regions, enabling
+                                    comparisons and analysis of trends across different countries. Simply choose a
+                                    country from the selector to see how physician categories evolved in that location.
+                                    The graph dynamically updates based on your selection, helping identify regional
+                                    patterns and healthcare trends.</p>
                             </div>
                             <hr>
                             <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 20px; position: relative;">
@@ -127,13 +142,14 @@
                                     number of hospitals into various categories based on ownership type and whether they
                                     are public or private.</p>
                                 <h3>How to read</h3>
-                                <p>Click on the bar to drill down for more details. Click the backgroud to return using breadcrumbs.</p>
+                                <p>Click on the bar to drill down for more details. Click the backgroud to return using
+                                    breadcrumbs.</p>
                                 <p>Hover over to see the exact value.</p>
                                 <p>
-                                        This breadcrumb trail shows your current position in the data hierarchy. 
+                                    This breadcrumb trail shows your current position in the data hierarchy.
                                 </p>
-                                <p>When a bar changes color, it indicates that there are no further levels to explore for that category.</p>
-                                
+                                <p>When a bar changes color, it indicates that there are no further levels to explore
+                                    for that category.</p>
 
 
                             </div>
@@ -162,7 +178,9 @@
                                     </li>
                                 </ul>
                                 <h3>General Hospitals:</h3>
-                                <p>General hospitals cater to a wide range of healthcare needs and may be publicly or privately operated, serving as the backbone of the healthcare system for communities of all sizes.</p>
+                                <p>General hospitals cater to a wide range of healthcare needs and may be publicly or
+                                    privately operated, serving as the backbone of the healthcare system for communities
+                                    of all sizes.</p>
                                 <h3>Healthcare Policies (2010-2020):</h3>
                                 <p>Government initiatives and private healthcare regulations during this period likely
                                     influenced hospital distribution and types, such as funding for public hospitals or
@@ -261,19 +279,35 @@
                                     <!-- Information Box -->
                                     <div class="info-box">
                                         <h2>Healthcare Hierarchical Distribution Treemap</h2>
-                                        <p>This interactive treemap visualizes the hierarchical structure of healthcare services and their relative values. Each rectangle represents a category or sub-category within the healthcare system, such as departments, organizations, or types of services. The size of each rectangle corresponds to its value, which could indicate budget allocation, number of facilities, patient volume, or other relevant metrics.</p>
+                                        <p>This interactive treemap visualizes the hierarchical structure of healthcare
+                                            services and their relative values. Each rectangle represents a category or
+                                            sub-category within the healthcare system, such as departments,
+                                            organizations, or types of services. The size of each rectangle corresponds
+                                            to its value, which could indicate budget allocation, number of facilities,
+                                            patient volume, or other relevant metrics.</p>
 
                                         <h3>How to Read the Treemap</h3>
                                         <ul>
-                                            <li><strong>Size of the Rectangles:</strong> The larger the rectangle, the higher the value or importance of that category within the hierarchy.</li>
-                                            <li><strong>Color Coding:</strong> The rectangles are color-coded to help distinguish between parent categories and their children.</li>
+                                            <li><strong>Size of the Rectangles:</strong> The larger the rectangle, the
+                                                higher the value or importance of that category within the hierarchy.
+                                            </li>
+                                            <li><strong>Color Coding:</strong> The rectangles are color-coded to help
+                                                distinguish between parent categories and their children.
+                                            </li>
                                         </ul>
 
                                         <h3>Interactivity</h3>
                                         <ul>
-                                            <li><strong>Zoom In:</strong> Click on a rectangle to zoom in and explore its sub-categories. This allows you to drill down into specific details within each section.</li>
-                                            <li><strong>Zoom Out:</strong> Click outside the rectangle or on the top-most rectangle to zoom out and return to the previous level.</li>
-                                            <li><strong>Breadcrumb Navigation:</strong> The path displayed at the top helps you keep track of where you are within the hierarchy.</li>
+                                            <li><strong>Zoom In:</strong> Click on a rectangle to zoom in and explore
+                                                its sub-categories. This allows you to drill down into specific details
+                                                within each section.
+                                            </li>
+                                            <li><strong>Zoom Out:</strong> Click outside the rectangle or on the
+                                                top-most rectangle to zoom out and return to the previous level.
+                                            </li>
+                                            <li><strong>Breadcrumb Navigation:</strong> The path displayed at the top
+                                                helps you keep track of where you are within the hierarchy.
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>

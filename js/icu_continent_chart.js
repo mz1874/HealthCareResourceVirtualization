@@ -71,7 +71,7 @@ svg_icu.append("text")
     .style("font-size", "16px")
     .style("fill", "#333")
     .style("font-weight", "bold")
-    .text("Total");
+    .text("Total %");
 
 // Load the CSV data
 d3.csv("cleaned/ICU_BED_USE.csv").then(function(data) {
